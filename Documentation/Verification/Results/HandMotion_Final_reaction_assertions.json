@@ -1,0 +1,379 @@
+{
+  "passed": true,
+  "pitch_endpoints": [
+    {
+      "kind": "ball",
+      "x": "-0.084",
+      "y": "1.248"
+    },
+    {
+      "kind": "cake",
+      "x": "-0.111",
+      "y": "1.102"
+    },
+    {
+      "kind": "poison",
+      "x": "-0.177",
+      "y": "1.346"
+    },
+    {
+      "kind": "boomerang",
+      "x": "0.105",
+      "y": "1.268"
+    },
+    {
+      "kind": "magic",
+      "x": "0.061",
+      "y": "1.298"
+    },
+    {
+      "kind": "bomb",
+      "x": "0.010",
+      "y": "1.280"
+    },
+    {
+      "kind": "bullets",
+      "x": "0.121",
+      "y": "1.236"
+    },
+    {
+      "kind": "chest",
+      "x": "-0.319",
+      "y": "1.261"
+    },
+    {
+      "kind": "magic",
+      "x": "0.080",
+      "y": "1.376"
+    },
+    {
+      "kind": "ball",
+      "x": "0.029",
+      "y": "1.273"
+    },
+    {
+      "kind": "magic",
+      "x": "-0.018",
+      "y": "1.315"
+    },
+    {
+      "kind": "ball",
+      "x": "-0.125",
+      "y": "1.354"
+    },
+    {
+      "kind": "ball",
+      "x": "-0.014",
+      "y": "1.232"
+    },
+    {
+      "kind": "cake",
+      "x": "0.088",
+      "y": "1.076"
+    },
+    {
+      "kind": "poison",
+      "x": "-0.105",
+      "y": "1.335"
+    },
+    {
+      "kind": "boomerang",
+      "x": "0.258",
+      "y": "1.248"
+    },
+    {
+      "kind": "magic",
+      "x": "0.086",
+      "y": "1.263"
+    },
+    {
+      "kind": "bomb",
+      "x": "0.108",
+      "y": "1.236"
+    },
+    {
+      "kind": "bullets",
+      "x": "0.177",
+      "y": "1.152"
+    },
+    {
+      "kind": "chest",
+      "x": "-0.243",
+      "y": "1.261"
+    },
+    {
+      "kind": "magic",
+      "x": "0.163",
+      "y": "1.265"
+    }
+  ],
+  "outfield_targets": [
+    {
+      "kind": "ball",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "0.000",
+      "target_y": "0.100",
+      "target_z": "68.800",
+      "item": "0"
+    },
+    {
+      "kind": "cake",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "17.501",
+      "target_y": "0.100",
+      "target_z": "66.751",
+      "item": "0"
+    },
+    {
+      "kind": "ball",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-4.313",
+      "target_y": "0.100",
+      "target_z": "68.668",
+      "item": "0"
+    },
+    {
+      "kind": "cake",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-20.955",
+      "target_y": "0.100",
+      "target_z": "65.774",
+      "item": "0"
+    },
+    {
+      "kind": "poison",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-32.370",
+      "target_y": "0.100",
+      "target_z": "60.905",
+      "item": "0"
+    },
+    {
+      "kind": "boomerang",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-18.361",
+      "target_y": "0.100",
+      "target_z": "66.329",
+      "item": "0"
+    },
+    {
+      "kind": "magic",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-19.430",
+      "target_y": "0.100",
+      "target_z": "66.097",
+      "item": "3"
+    },
+    {
+      "kind": "bomb",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "0.343",
+      "target_y": "3.500",
+      "target_z": "68.823",
+      "item": "0"
+    },
+    {
+      "kind": "bullets",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-11.241",
+      "target_y": "0.100",
+      "target_z": "67.887",
+      "item": "0"
+    },
+    {
+      "kind": "bullets",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "15.016",
+      "target_y": "0.100",
+      "target_z": "67.183",
+      "item": "1"
+    },
+    {
+      "kind": "bullets",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "26.929",
+      "target_y": "0.100",
+      "target_z": "63.398",
+      "item": "2"
+    },
+    {
+      "kind": "chest",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-31.627",
+      "target_y": "0.100",
+      "target_z": "61.262",
+      "item": "0"
+    },
+    {
+      "kind": "magic",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-7.728",
+      "target_y": "0.100",
+      "target_z": "68.382",
+      "item": "5"
+    },
+    {
+      "kind": "ball",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "1.483",
+      "target_y": "0.100",
+      "target_z": "68.785",
+      "item": "0"
+    },
+    {
+      "kind": "magic",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-1.274",
+      "target_y": "0.100",
+      "target_z": "68.662",
+      "item": "1"
+    },
+    {
+      "kind": "ball",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-6.151",
+      "target_y": "0.100",
+      "target_z": "68.532",
+      "item": "0"
+    },
+    {
+      "kind": "ball",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-0.731",
+      "target_y": "0.100",
+      "target_z": "68.797",
+      "item": "0"
+    },
+    {
+      "kind": "cake",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-11.602",
+      "target_y": "0.100",
+      "target_z": "67.977",
+      "item": "0"
+    },
+    {
+      "kind": "poison",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-30.240",
+      "target_y": "0.100",
+      "target_z": "61.966",
+      "item": "0"
+    },
+    {
+      "kind": "boomerang",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "32.548",
+      "target_y": "0.100",
+      "target_z": "60.793",
+      "item": "0"
+    },
+    {
+      "kind": "magic",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-18.233",
+      "target_y": "0.100",
+      "target_z": "66.428",
+      "item": "3"
+    },
+    {
+      "kind": "bomb",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "3.668",
+      "target_y": "3.500",
+      "target_z": "68.730",
+      "item": "0"
+    },
+    {
+      "kind": "bullets",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-7.811",
+      "target_y": "0.100",
+      "target_z": "68.368",
+      "item": "0"
+    },
+    {
+      "kind": "bullets",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "16.657",
+      "target_y": "0.100",
+      "target_z": "66.804",
+      "item": "1"
+    },
+    {
+      "kind": "bullets",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "28.497",
+      "target_y": "0.100",
+      "target_z": "62.726",
+      "item": "2"
+    },
+    {
+      "kind": "chest",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-28.232",
+      "target_y": "0.100",
+      "target_z": "62.864",
+      "item": "0"
+    },
+    {
+      "kind": "magic",
+      "strong": "True",
+      "distance": "68.0",
+      "target_x": "-3.562",
+      "target_y": "0.100",
+      "target_z": "68.712",
+      "item": "5"
+    }
+  ],
+  "cooldowns_seconds": [
+    0.6000000000000014,
+    0.5999999999999979,
+    0.6000000000000014,
+    0.6000000000000014,
+    0.6000000000000014,
+    0.5999999999999943,
+    0.45000000000000284,
+    0.75,
+    0.6000000000000014,
+    0.6000000000000014,
+    0.6000000000000014,
+    0.6000000000000085,
+    0.6000000000000085,
+    0.5999999999999943,
+    0.6000000000000085,
+    0.6000000000000085,
+    0.6000000000000085,
+    0.5999999999999943,
+    0.45000000000000284,
+    0.75
+  ],
+  "staged_arrivals": 27,
+  "crowd_responses": 23
+}

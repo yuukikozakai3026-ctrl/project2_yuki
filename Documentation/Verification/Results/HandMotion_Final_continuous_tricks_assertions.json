@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "near_motion": [
+    {
+      "kind": "cake",
+      "near_samples": 24,
+      "near_bend_degrees": 38.73897275089009
+    },
+    {
+      "kind": "poison",
+      "near_samples": 20,
+      "near_recoil_cue_z": 1.21125
+    },
+    {
+      "kind": "boomerang",
+      "near_samples": 20,
+      "near_rotation_degrees": 67.37546368573513
+    },
+    {
+      "kind": "bomb",
+      "near_samples": 28
+    },
+    {
+      "kind": "chest",
+      "near_samples": 30,
+      "near_height_change": 0.2234100000000001,
+      "near_lid_change": 0.622
+    },
+    {
+      "kind": "cake",
+      "near_samples": 23,
+      "near_bend_degrees": 35.34136095614184
+    },
+    {
+      "kind": "poison",
+      "near_samples": 20,
+      "near_recoil_cue_z": 1.20967
+    },
+    {
+      "kind": "boomerang",
+      "near_samples": 19,
+      "near_rotation_degrees": 64.07492473855986
+    },
+    {
+      "kind": "bomb",
+      "near_samples": 29
+    },
+    {
+      "kind": "chest",
+      "near_samples": 31,
+      "near_height_change": 0.22475,
+      "near_lid_change": 0.6639999999999999
+    }
+  ]
+}

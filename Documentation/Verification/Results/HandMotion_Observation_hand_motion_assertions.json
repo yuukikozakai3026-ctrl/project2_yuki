@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "centre_motion": [
+    {
+      "kind": "cake",
+      "hand_zone_bend_degrees": 24.52,
+      "max_sample_turn_degrees": 1.73,
+      "samples": 30,
+      "start_z": 0.94124,
+      "end_z": 0.50705
+    },
+    {
+      "kind": "poison",
+      "hand_zone_bend_degrees": 29.99,
+      "max_sample_turn_degrees": 2.96,
+      "samples": 17,
+      "start_z": 0.94289,
+      "end_z": 0.52146
+    },
+    {
+      "kind": "boomerang",
+      "hand_zone_bend_degrees": 38.67,
+      "max_sample_turn_degrees": 2.91,
+      "samples": 18,
+      "start_z": 0.93603,
+      "end_z": 0.50869
+    },
+    {
+      "kind": "magic",
+      "hand_zone_bend_degrees": 29.36,
+      "max_sample_turn_degrees": 3.44,
+      "samples": 15,
+      "start_z": 0.93803,
+      "end_z": 0.52125
+    },
+    {
+      "kind": "bomb",
+      "hand_zone_bend_degrees": 34.39,
+      "max_sample_turn_degrees": 2.82,
+      "samples": 29,
+      "start_z": 0.94461,
+      "end_z": 0.50263
+    },
+    {
+      "kind": "chest",
+      "hand_zone_bend_degrees": 61.05,
+      "max_sample_turn_degrees": 3.53,
+      "samples": 25,
+      "start_z": 0.94985,
+      "end_z": 0.50979
+    }
+  ]
+}

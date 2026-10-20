@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "speed_multiplier": 1.5,
+  "near_pace": [
+    {
+      "kind": "ball",
+      "measured_near_speed": 0.4,
+      "samples": 29
+    },
+    {
+      "kind": "cake",
+      "measured_near_speed": 0.4,
+      "samples": 24
+    },
+    {
+      "kind": "poison",
+      "measured_near_speed": 0.6,
+      "samples": 20
+    },
+    {
+      "kind": "boomerang",
+      "measured_near_speed": 0.6,
+      "samples": 20
+    },
+    {
+      "kind": "magic",
+      "measured_near_speed": 0.6,
+      "samples": 19
+    },
+    {
+      "kind": "bomb",
+      "measured_near_speed": 0.4,
+      "samples": 28
+    },
+    {
+      "kind": "bullets",
+      "measured_near_speed": 0.4,
+      "samples": 29
+    },
+    {
+      "kind": "chest",
+      "measured_near_speed": 0.4,
+      "samples": 30
+    },
+    {
+      "kind": "magic",
+      "measured_near_speed": 0.6,
+      "samples": 19
+    },
+    {
+      "kind": "ball",
+      "measured_near_speed": 0.4,
+      "samples": 29
+    },
+    {
+      "kind": "magic",
+      "measured_near_speed": 0.6,
+      "samples": 20
+    },
+    {
+      "kind": "ball",
+      "measured_near_speed": 0.4,
+      "samples": 29
+    },
+    {
+      "kind": "ball",
+      "measured_near_speed": 0.4,
+      "samples": 29
+    },
+    {
+      "kind": "cake",
+      "measured_near_speed": 0.4,
+      "samples": 23
+    },
+    {
+      "kind": "poison",
+      "measured_near_speed": 0.6,
+      "samples": 20
+    },
+    {
+      "kind": "boomerang",
+      "measured_near_speed": 0.6,
+      "samples": 19
+    },
+    {
+      "kind": "magic",
+      "measured_near_speed": 0.6,
+      "samples": 19
+    },
+    {
+      "kind": "bomb",
+      "measured_near_speed": 0.4,
+      "samples": 29
+    },
+    {
+      "kind": "bullets",
+      "measured_near_speed": 0.4,
+      "samples": 29
+    },
+    {
+      "kind": "chest",
+      "measured_near_speed": 0.4,
+      "samples": 31
+    },
+    {
+      "kind": "magic",
+      "measured_near_speed": 0.6,
+      "samples": 19
+    }
+  ],
+  "magic_contacts": [
+    {
+      "simultaneous": "1",
+      "fake_first": "False"
+    },
+    {
+      "simultaneous": "1",
+      "fake_first": "False"
+    },
+    {
+      "simultaneous": "1",
+      "fake_first": "True"
+    },
+    {
+      "simultaneous": "1",
+      "fake_first": "False"
+    },
+    {
+      "simultaneous": "1",
+      "fake_first": "False"
+    }
+  ],
+  "cue_lead_min": 0.28
+}

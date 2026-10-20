@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "slow_intervals": 23,
+  "slow_clock_ratio": 0.20000028571714282,
+  "normal_clock_ratio": 1.0000001428571428,
+  "outbound_reactions_slowed": 9,
+  "slow_range_two_thirds": true,
+  "bat_and_cooldown_timing_unchanged": true
+}

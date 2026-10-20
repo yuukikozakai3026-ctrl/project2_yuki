@@ -1,0 +1,2053 @@
+{
+  "version": "1.0",
+  "units": "m",
+  "coordinate_system": "+X right, +Y up, +Z forward",
+  "reference_eye_height": 1.65,
+  "positions": "right handed, reference body height",
+  "model_front": "-Z after importer normalization",
+  "dimension_semantics": "visible closed-state world AABB; not raw Transform.scale",
+  "calibration": {
+    "height_rule": "body_height entries: y += measured_eye_height - 1.65; no rig or model scale",
+    "left_hand_rule": "near gameplay positions and directions: x *= -1; text remains readable; no negative rig scale"
+  },
+  "objects": [
+    {
+      "id": "floor_-3_0",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -3,
+        0,
+        -1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-3_1",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -3,
+        0,
+        -0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-3_2",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -3,
+        0,
+        0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-3_3",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -3,
+        0,
+        1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-3_4",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -3,
+        0,
+        2.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-3_5",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -3,
+        0,
+        3.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-3_6",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -3,
+        0,
+        4.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-3_7",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -3,
+        0,
+        5.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-2_0",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -2,
+        0,
+        -1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-2_1",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -2,
+        0,
+        -0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-2_2",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -2,
+        0,
+        0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-2_3",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -2,
+        0,
+        1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-2_4",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -2,
+        0,
+        2.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-2_5",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -2,
+        0,
+        3.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-2_6",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -2,
+        0,
+        4.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-2_7",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -2,
+        0,
+        5.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-1_0",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -1,
+        0,
+        -1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-1_1",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -1,
+        0,
+        -0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-1_2",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -1,
+        0,
+        0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-1_3",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -1,
+        0,
+        1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-1_4",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -1,
+        0,
+        2.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-1_5",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -1,
+        0,
+        3.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-1_6",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -1,
+        0,
+        4.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_-1_7",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        -1,
+        0,
+        5.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_0_0",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        0,
+        0,
+        -1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_0_1",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        0,
+        0,
+        -0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_0_2",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        0,
+        0,
+        0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_0_3",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        0,
+        0,
+        1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_0_4",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        0,
+        0,
+        2.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_0_5",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        0,
+        0,
+        3.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_0_6",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        0,
+        0,
+        4.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_0_7",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        0,
+        0,
+        5.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_1_0",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        1,
+        0,
+        -1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_1_1",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        1,
+        0,
+        -0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_1_2",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        1,
+        0,
+        0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_1_3",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        1,
+        0,
+        1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_1_4",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        1,
+        0,
+        2.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_1_5",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        1,
+        0,
+        3.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_1_6",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        1,
+        0,
+        4.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_1_7",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        1,
+        0,
+        5.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_2_0",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        2,
+        0,
+        -1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_2_1",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        2,
+        0,
+        -0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_2_2",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        2,
+        0,
+        0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_2_3",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        2,
+        0,
+        1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_2_4",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        2,
+        0,
+        2.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_2_5",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        2,
+        0,
+        3.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_2_6",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        2,
+        0,
+        4.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_2_7",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        2,
+        0,
+        5.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_3_0",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        3,
+        0,
+        -1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_3_1",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        3,
+        0,
+        -0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_3_2",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        3,
+        0,
+        0.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_3_3",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        3,
+        0,
+        1.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_3_4",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        3,
+        0,
+        2.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_3_5",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        3,
+        0,
+        3.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_3_6",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        3,
+        0,
+        4.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "floor_3_7",
+      "asset_or_shape": "factory-kit/floor.glb",
+      "position": [
+        3,
+        0,
+        5.5
+      ],
+      "size_m": [
+        1,
+        0,
+        1
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "back_wall",
+      "asset_or_shape": "box",
+      "position": [
+        0,
+        2.4,
+        6.05
+      ],
+      "size_m": [
+        7,
+        4.8,
+        0.1
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "side_wall_-1",
+      "asset_or_shape": "box",
+      "position": [
+        -3.55,
+        2.4,
+        2
+      ],
+      "size_m": [
+        0.1,
+        4.8,
+        8
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "machine_-1",
+      "asset_or_shape": "factory-kit/machine.glb",
+      "position": [
+        -2.4,
+        0,
+        3.7
+      ],
+      "size_m": [
+        1.431042,
+        1.55,
+        1.788803
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false,
+      "scale_rule": "uniform to height 1.55"
+    },
+    {
+      "id": "side_wall_1",
+      "asset_or_shape": "box",
+      "position": [
+        3.55,
+        2.4,
+        2
+      ],
+      "size_m": [
+        0.1,
+        4.8,
+        8
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": false
+    },
+    {
+      "id": "machine_1",
+      "asset_or_shape": "factory-kit/machine.glb",
+      "position": [
+        2.4,
+        0,
+        3.7
+      ],
+      "size_m": [
+        1.431042,
+        1.55,
+        1.788803
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": false,
+      "scale_rule": "uniform to height 1.55"
+    },
+    {
+      "id": "supply_C",
+      "asset_or_shape": "factory-kit/machine-connection-hole.glb",
+      "position": [
+        0,
+        1.45,
+        4.15
+      ],
+      "size_m": [
+        0.85,
+        0.85,
+        0.9
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true
+    },
+    {
+      "id": "muzzle_C",
+      "asset_or_shape": "circular iris shutter",
+      "position": [
+        0,
+        1.45,
+        3.6900000000000004
+      ],
+      "size_m": [
+        0.62,
+        0.62,
+        0.02
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "supply_L",
+      "asset_or_shape": "factory-kit/machine-connection-hole.glb",
+      "position": [
+        -1.65,
+        1.45,
+        3.95
+      ],
+      "size_m": [
+        0.85,
+        0.85,
+        0.9
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true
+    },
+    {
+      "id": "muzzle_L",
+      "asset_or_shape": "circular iris shutter",
+      "position": [
+        -1.65,
+        1.45,
+        3.49
+      ],
+      "size_m": [
+        0.62,
+        0.62,
+        0.02
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "supply_R",
+      "asset_or_shape": "factory-kit/machine-connection-hole.glb",
+      "position": [
+        1.65,
+        1.45,
+        3.95
+      ],
+      "size_m": [
+        0.85,
+        0.85,
+        0.9
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true
+    },
+    {
+      "id": "muzzle_R",
+      "asset_or_shape": "circular iris shutter",
+      "position": [
+        1.65,
+        1.45,
+        3.49
+      ],
+      "size_m": [
+        0.62,
+        0.62,
+        0.02
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "score_board",
+      "asset_or_shape": "world UI",
+      "position": [
+        0,
+        2.25,
+        3.25
+      ],
+      "size_m": [
+        1.9,
+        0.48,
+        0.06
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true
+    },
+    {
+      "id": "metal_target",
+      "asset_or_shape": "metal plate",
+      "position": [
+        -0.9,
+        1.5,
+        5.5
+      ],
+      "size_m": [
+        1,
+        0.8,
+        0.06
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true
+    },
+    {
+      "id": "far_collector",
+      "asset_or_shape": "mesh net",
+      "position": [
+        0.92,
+        1.5,
+        5.58
+      ],
+      "size_m": [
+        1.4,
+        1.1,
+        0.06
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true
+    },
+    {
+      "id": "rear_collector",
+      "asset_or_shape": "mesh net",
+      "position": [
+        0,
+        1.05,
+        -0.8
+      ],
+      "size_m": [
+        2.2,
+        1.7,
+        0.05
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true
+    },
+    {
+      "id": "robot_stage",
+      "asset_or_shape": "demonstration table",
+      "position": [
+        1.75,
+        0.78,
+        2.4
+      ],
+      "size_m": [
+        1.4,
+        0.12,
+        0.85
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true
+    },
+    {
+      "id": "robot",
+      "asset_or_shape": "factory-kit/robot-arm-a.glb",
+      "position": [
+        2.2,
+        0.84,
+        2.62
+      ],
+      "size_m": [
+        0.28125,
+        0.9,
+        0.28125
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "scale_rule": "height 0.90, preserve native aspect; source dimensions 1.0 x 3.2000004 x 1.0"
+    },
+    {
+      "id": "worktop",
+      "asset_or_shape": "flat tabletop with circular cutout",
+      "position": [
+        0,
+        0.83,
+        0.72
+      ],
+      "size_m": [
+        1.6,
+        0.1,
+        0.8
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B",
+      "cutout": {
+        "center_xz": [
+          -0.48,
+          0.78
+        ],
+        "diameter": 0.44
+      }
+    },
+    {
+      "id": "hole",
+      "asset_or_shape": "actual opening",
+      "position": [
+        -0.48,
+        0.88,
+        0.78
+      ],
+      "size_m": [
+        0.44,
+        0,
+        0.44
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B"
+    },
+    {
+      "id": "hole_rim",
+      "asset_or_shape": "annulus",
+      "position": [
+        -0.48,
+        0.8875,
+        0.78
+      ],
+      "size_m": [
+        0.49,
+        0.015,
+        0.49
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B",
+      "inner_diameter": 0.44
+    },
+    {
+      "id": "cake_dock",
+      "asset_or_shape": "flat dock with folding central panel envelope",
+      "position": [
+        0.58,
+        0.95,
+        0.62
+      ],
+      "size_m": [
+        0.5,
+        0.14,
+        0.5
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B",
+      "solid": false
+    },
+    {
+      "id": "dock_fork_L",
+      "asset_or_shape": "box",
+      "position": [
+        0.355,
+        0.95,
+        0.62
+      ],
+      "size_m": [
+        0.05,
+        0.14,
+        0.5
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B"
+    },
+    {
+      "id": "dock_fork_R",
+      "asset_or_shape": "box",
+      "position": [
+        0.805,
+        0.95,
+        0.62
+      ],
+      "size_m": [
+        0.05,
+        0.14,
+        0.5
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B"
+    },
+    {
+      "id": "dock_center_panel",
+      "asset_or_shape": "hinged box",
+      "position": [
+        0.58,
+        1.01,
+        0.62
+      ],
+      "size_m": [
+        0.4,
+        0.02,
+        0.5
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B",
+      "state_rule": "closed until cake caught; then fold down 90 degrees in 0.15s around front Z=0.37; wait for bat clearance after delivery"
+    },
+    {
+      "id": "dock_base",
+      "asset_or_shape": "box",
+      "position": [
+        0.58,
+        0.89,
+        0.62
+      ],
+      "size_m": [
+        0.5,
+        0.02,
+        0.5
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B"
+    },
+    {
+      "id": "dock_receiver",
+      "asset_or_shape": "cake receiver enclosure",
+      "position": [
+        0.58,
+        1.24,
+        1.55
+      ],
+      "size_m": [
+        0.55,
+        0.46,
+        0.55
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B"
+    },
+    {
+      "id": "chimney",
+      "asset_or_shape": "factory-kit/pipe-large.glb",
+      "position": [
+        -0.7,
+        0.3,
+        1.25
+      ],
+      "size_m": [
+        0.16,
+        1.1,
+        0.16
+      ],
+      "pivot": "bottom",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B"
+    },
+    {
+      "id": "bomb_inlet_pipe",
+      "asset_or_shape": "factory-kit/pipe-large.glb",
+      "position": [
+        1.2530183585663286,
+        1.5169976602039124,
+        1.02
+      ],
+      "size_m": [
+        0.34,
+        0.45,
+        0.34
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B",
+      "axis": [
+        -0.9023038158503489,
+        -0.4311007120173889,
+        0.0
+      ],
+      "size_space": "normalized pipe local axes, local Y is pipe axis"
+    },
+    {
+      "id": "bomb_inlet",
+      "asset_or_shape": "opening",
+      "position": [
+        1.05,
+        1.42,
+        1.02
+      ],
+      "size_m": [
+        0.34,
+        0.34,
+        0.01
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B",
+      "normal": [
+        -0.9023038158503489,
+        -0.4311007120173889,
+        0.0
+      ]
+    },
+    {
+      "id": "chest_anchor",
+      "asset_or_shape": "winch",
+      "position": [
+        0,
+        2.15,
+        0.95
+      ],
+      "size_m": [
+        0.28,
+        0.1,
+        0.12
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B"
+    },
+    {
+      "id": "table_leg_-0.66_0.42",
+      "asset_or_shape": "box",
+      "position": [
+        -0.66,
+        0.39,
+        0.42
+      ],
+      "size_m": [
+        0.06,
+        0.78,
+        0.06
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": false,
+      "mode": "B",
+      "height_rule": "size_y = 0.78 + dy; center_y = size_y/2; bottom remains at floor"
+    },
+    {
+      "id": "table_leg_-0.66_1.02",
+      "asset_or_shape": "box",
+      "position": [
+        -0.66,
+        0.39,
+        1.02
+      ],
+      "size_m": [
+        0.06,
+        0.78,
+        0.06
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": false,
+      "mode": "B",
+      "height_rule": "size_y = 0.78 + dy; center_y = size_y/2; bottom remains at floor"
+    },
+    {
+      "id": "table_leg_0.66_0.42",
+      "asset_or_shape": "box",
+      "position": [
+        0.66,
+        0.39,
+        0.42
+      ],
+      "size_m": [
+        0.06,
+        0.78,
+        0.06
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": false,
+      "mode": "B",
+      "height_rule": "size_y = 0.78 + dy; center_y = size_y/2; bottom remains at floor"
+    },
+    {
+      "id": "table_leg_0.66_1.02",
+      "asset_or_shape": "box",
+      "position": [
+        0.66,
+        0.39,
+        1.02
+      ],
+      "size_m": [
+        0.06,
+        0.78,
+        0.06
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": false,
+      "mode": "B",
+      "height_rule": "size_y = 0.78 + dy; center_y = size_y/2; bottom remains at floor"
+    },
+    {
+      "id": "rail_front",
+      "asset_or_shape": "rounded rail",
+      "position": [
+        0,
+        0.9025,
+        0.3325
+      ],
+      "size_m": [
+        1.6,
+        0.045,
+        0.025
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B"
+    },
+    {
+      "id": "rail_back",
+      "asset_or_shape": "rounded rail",
+      "position": [
+        0,
+        0.9025,
+        1.1075
+      ],
+      "size_m": [
+        1.6,
+        0.045,
+        0.025
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B"
+    },
+    {
+      "id": "rail_left",
+      "asset_or_shape": "rounded rail",
+      "position": [
+        -0.7875,
+        0.9025,
+        0.72
+      ],
+      "size_m": [
+        0.025,
+        0.045,
+        0.8
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B"
+    },
+    {
+      "id": "rail_right",
+      "asset_or_shape": "rounded rail",
+      "position": [
+        0.7875,
+        0.9025,
+        0.72
+      ],
+      "size_m": [
+        0.025,
+        0.045,
+        0.8
+      ],
+      "pivot": "center",
+      "yaw_degrees": 0,
+      "body_height": true,
+      "mode": "B"
+    }
+  ],
+  "anchors": {
+    "player_floor": [
+      0,
+      0,
+      0
+    ],
+    "eye": [
+      0,
+      1.65,
+      0
+    ],
+    "A_hit_C": [
+      0,
+      1.22,
+      0.66
+    ],
+    "A_hit_L": [
+      -0.3,
+      1.22,
+      0.66
+    ],
+    "A_hit_R": [
+      0.3,
+      1.22,
+      0.66
+    ],
+    "B_ball_hit": [
+      0,
+      1.24,
+      0.66
+    ],
+    "B_cake_plate_bottom": [
+      0.18,
+      1.1,
+      0.62
+    ],
+    "B_cake_dock_top": [
+      0.58,
+      1.02,
+      0.62
+    ],
+    "B_bomb_landing": [
+      0.18,
+      0.99,
+      0.94
+    ],
+    "B_bomb_landing_late": [
+      0.35,
+      0.99,
+      1.0
+    ],
+    "B_chest_center": [
+      0,
+      1.24,
+      0.7
+    ],
+    "A_bullet_plate_contact_center": [
+      -0.9,
+      1.5,
+      5.4
+    ],
+    "B_bullet_plate_contact_center": [
+      -0.9,
+      1.5,
+      5.405
+    ]
+  },
+  "models": {
+    "bat": {
+      "pivot": "grip",
+      "local_axis": "+Y",
+      "local_y_range": [
+        -0.12,
+        0.73
+      ],
+      "sweet_band_y": [
+        0.43,
+        0.68
+      ],
+      "barrel_radius": 0.039
+    },
+    "A_ball": {
+      "size": [
+        0.14,
+        0.14,
+        0.14
+      ],
+      "pivot": "center"
+    },
+    "A_cake": {
+      "size": [
+        0.3,
+        0.25633,
+        0.3
+      ],
+      "pivot": "center",
+      "source_node": 0
+    },
+    "A_firework": {
+      "size": [
+        0.22,
+        0.22,
+        0.22
+      ],
+      "pivot": "center"
+    },
+    "A_bullet": {
+      "size": [
+        0.14,
+        0.14,
+        0.14
+      ],
+      "pivot": "center"
+    },
+    "A_chest": {
+      "size": [
+        0.3,
+        0.27,
+        0.3
+      ],
+      "pivot": "center"
+    },
+    "B_cake": {
+      "size": [
+        0.34,
+        0.14525,
+        0.34
+      ],
+      "pivot": "bottom"
+    },
+    "B_plate": {
+      "size": [
+        0.44,
+        0.044407,
+        0.44
+      ],
+      "pivot": "bottom"
+    },
+    "B_bomb": {
+      "size": [
+        0.22,
+        0.22,
+        0.22
+      ],
+      "pivot": "center"
+    },
+    "B_bullet": {
+      "size": [
+        0.13,
+        0.13,
+        0.13
+      ],
+      "pivot": "center"
+    },
+    "B_chest": {
+      "size": [
+        0.45,
+        0.405,
+        0.45
+      ],
+      "pivot": "center"
+    }
+  },
+  "paths": {
+    "A_outbound": {
+      "ball": {
+        "via": [
+          0.82,
+          1.7,
+          3.0
+        ],
+        "end": [
+          0.92,
+          1.5,
+          5.48
+        ]
+      },
+      "firework": {
+        "via": [
+          0.82,
+          1.7,
+          3.0
+        ],
+        "end": [
+          0.92,
+          1.8,
+          5.1
+        ]
+      },
+      "bullet": {
+        "via": [
+          -0.82,
+          1.7,
+          3.0
+        ],
+        "end": [
+          -0.9,
+          1.5,
+          5.4
+        ]
+      },
+      "total_duration_real": 0.6
+    },
+    "A_slow": {
+      "x": "lane",
+      "y": "height",
+      "start_z": 0.86,
+      "end_z": 0.5,
+      "duration_real": 0.9
+    },
+    "B_ball_slow": {
+      "start": [
+        0,
+        1.24,
+        0.86
+      ],
+      "end": [
+        0,
+        1.24,
+        0.5
+      ],
+      "duration_real": 0.9
+    },
+    "B_bullets_slow": {
+      "start_center": [
+        0,
+        1.24,
+        0.86
+      ],
+      "end_center": [
+        0,
+        1.24,
+        0.5
+      ],
+      "duration_real": 1.0
+    },
+    "B_cake_final": {
+      "start": [
+        0.18,
+        1.2,
+        0.74
+      ],
+      "end": [
+        0.18,
+        1.1,
+        0.62
+      ],
+      "duration_real": 0.8
+    },
+    "B_chest_final": {
+      "start": [
+        0,
+        1.28,
+        0.85
+      ],
+      "end": [
+        0,
+        1.24,
+        0.7
+      ],
+      "duration_real": 0.8
+    },
+    "B_cake_transfer": {
+      "start_bottom": [
+        0.18,
+        1.1,
+        0.62
+      ],
+      "lifted_bottom": [
+        0.18,
+        1.17,
+        0.62
+      ],
+      "above_dock": [
+        0.58,
+        1.17,
+        0.62
+      ],
+      "dock_success_bottom": [
+        0.58,
+        1.14,
+        0.62
+      ],
+      "delivery_end_bottom": [
+        0.58,
+        1.02,
+        1.55
+      ]
+    },
+    "bullet_offsets": {
+      "intro": [
+        [
+          -0.16,
+          0,
+          0
+        ],
+        [
+          0.16,
+          0,
+          0
+        ]
+      ],
+      "normal": [
+        [
+          -0.21,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0.21,
+          0,
+          0
+        ]
+      ],
+      "late": [
+        [
+          -0.225,
+          -0.03,
+          0
+        ],
+        [
+          -0.075,
+          -0.01,
+          0
+        ],
+        [
+          0.075,
+          0.01,
+          0
+        ],
+        [
+          0.225,
+          0.03,
+          0
+        ]
+      ]
+    }
+  },
+  "ui": {
+    "score_board_center": [
+      0,
+      2.25,
+      3.25
+    ],
+    "menu_center": [
+      0,
+      1.38,
+      1.8
+    ],
+    "skip_button_center": [
+      0.9,
+      1.8,
+      1.8
+    ],
+    "results_center": [
+      0,
+      1.75,
+      2.1
+    ],
+    "pc": {
+      "reference_pixels": [
+        1920,
+        1080
+      ],
+      "vertical_fov_degrees": 70,
+      "auto_demo_label_top_left": [
+        32,
+        28
+      ]
+    }
+  }
+}

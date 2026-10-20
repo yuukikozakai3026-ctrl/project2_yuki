@@ -1,0 +1,3213 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_id": "kenney-shortlist-for-3d-rpg",
+  "title_ja": "Kenney素材カタログ：3D協力RPG用",
+  "checked_on": "2026-09-07",
+  "scope_ja": "この会話で前に候補として挙げたパックを整理。現行公式ページを取得できた34パックを収録。Kenney全配布物の網羅一覧ではない。",
+  "source_index_url": "https://kenney.nl/assets",
+  "asset_count": 34,
+  "lookup_intent_count": 37,
+  "kind_labels": {
+    "model3d": "3Dモデル",
+    "vfx2d": "VFX用2D素材",
+    "ui2d": "UI・アイコン",
+    "audio": "音",
+    "texture": "背景テクスチャ"
+  },
+  "field_contract_ja": {
+    "official_metadata": "公式パックページの本文・タグに基づく。listed_file_countはページのFiles表記であり、固有3Dモデル数とは限らない。",
+    "keywords": "用途や同義語も含む候補検索語。個々の物体・音・形の収録確認ではない。",
+    "recommended_uses_ja": "このゲーム向けの利用提案。作者が明示した収録機能ではない。",
+    "recommendation": "用途上の推奨順と要確認事項。実ゲーム内の見た目・音を検証済みという意味ではない。",
+    "local": {
+      "status": "unknown",
+      "path": null,
+      "unity_paths": [],
+      "verified_files": []
+    },
+    "verified_files": "取得後に実在を確認したファイルの相対パス・検索語・確認結果だけ追記する。架空のファイル名を記載しない。"
+  },
+  "project_preferences": {
+    "basis": "user_stated_in_this_conversation",
+    "themes": [
+      "森林",
+      "キノコ森林",
+      "岩場",
+      "雪山",
+      "休憩所",
+      "Shop Room"
+    ],
+    "style_ja": "既存の角張ったシンプルなローポリに合わせる。丸すぎる3D造形は候補ごとに確認し、色変更だけで必ず馴染むとはみなさない。",
+    "vfx_ja": "色付き発光の重ね合わせを基本に、明るい背景で埋もれる時はパキッとした非発光カラーや暗い下地を重ねる。",
+    "layout_ja": "環境物は用途に合うまとまりで配置。既存の商品Anchor、通路、Socket、NavMesh、攻撃予兆の視認性を素材の都合で変更しない。"
+  },
+  "lookup_hints": [
+    {
+      "intent_id": "table",
+      "aliases": [
+        "机",
+        "テーブル",
+        "デスク",
+        "作業台",
+        "商品台",
+        "陳列台",
+        "table",
+        "desk",
+        "workbench"
+      ],
+      "primary_pack_ids": [
+        "kenney.furniture-kit"
+      ],
+      "secondary_pack_ids": [
+        "kenney.survival-kit",
+        "kenney.fantasy-town-kit"
+      ],
+      "note_ja": "Furniture Kitのtableタグを確認。他パックは部品探し候補で、机の収録は未確認。"
+    },
+    {
+      "intent_id": "chair",
+      "aliases": [
+        "椅子",
+        "いす",
+        "イス",
+        "chair",
+        "seat",
+        "bench"
+      ],
+      "primary_pack_ids": [
+        "kenney.furniture-kit"
+      ],
+      "secondary_pack_ids": [
+        "kenney.survival-kit"
+      ],
+      "note_ja": "家具のchairタグを確認。野営用椅子やベンチの具体モデルは確認して選ぶ。"
+    },
+    {
+      "intent_id": "shelf",
+      "aliases": [
+        "棚",
+        "ラック",
+        "本棚",
+        "shelf",
+        "shelves",
+        "rack",
+        "bookcase"
+      ],
+      "primary_pack_ids": [
+        "kenney.furniture-kit"
+      ],
+      "secondary_pack_ids": [
+        "kenney.fantasy-town-kit"
+      ],
+      "note_ja": "収納家具を探す候補。武器ラック専用モデルの存在は未確認。"
+    },
+    {
+      "intent_id": "container",
+      "aliases": [
+        "木箱",
+        "樽",
+        "荷箱",
+        "crate",
+        "barrel",
+        "cargo"
+      ],
+      "primary_pack_ids": [
+        "kenney.survival-kit",
+        "kenney.fantasy-town-kit"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "箱・樽の実収録は未確認。取得後のファイル一覧で最初に確認する。"
+    },
+    {
+      "intent_id": "camp",
+      "aliases": [
+        "キャンプ",
+        "野営地",
+        "テント",
+        "camp",
+        "campsite",
+        "tent"
+      ],
+      "primary_pack_ids": [
+        "kenney.survival-kit"
+      ],
+      "secondary_pack_ids": [
+        "kenney.mini-forest",
+        "kenney.fantasy-town-kit"
+      ],
+      "note_ja": "Survivalは用途候補。Mini Forestにはtentタグがあるが造形の相性に注意。"
+    },
+    {
+      "intent_id": "campfire",
+      "aliases": [
+        "焚き火",
+        "たき火",
+        "薪",
+        "campfire",
+        "firewood"
+      ],
+      "primary_pack_ids": [
+        "kenney.survival-kit"
+      ],
+      "secondary_pack_ids": [
+        "kenney.nature-kit"
+      ],
+      "note_ja": "必要な形状の収録は未確認。発光や炎VFXが完成品として付くとは扱わない。"
+    },
+    {
+      "intent_id": "lantern",
+      "aliases": [
+        "ランタン",
+        "灯り",
+        "lantern",
+        "torch"
+      ],
+      "primary_pack_ids": [
+        "kenney.survival-kit",
+        "kenney.fantasy-town-kit"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "モデルを探す候補。光源・Emission・炎は別途設定が必要か確認する。"
+    },
+    {
+      "intent_id": "shop_props",
+      "aliases": [
+        "屋台",
+        "露店",
+        "店の小物",
+        "market stall",
+        "stall",
+        "shop props"
+      ],
+      "primary_pack_ids": [
+        "kenney.fantasy-town-kit"
+      ],
+      "secondary_pack_ids": [
+        "kenney.survival-kit",
+        "kenney.furniture-kit"
+      ],
+      "note_ja": "既存Shop商品の配置を変えず、台座や周辺の不足部品を探す。"
+    },
+    {
+      "intent_id": "building",
+      "aliases": [
+        "小屋",
+        "建物",
+        "屋根",
+        "柱",
+        "building",
+        "hut",
+        "roof",
+        "pillar"
+      ],
+      "primary_pack_ids": [
+        "kenney.building-kit",
+        "kenney.fantasy-town-kit"
+      ],
+      "secondary_pack_ids": [
+        "kenney.castle-kit"
+      ],
+      "note_ja": "必要な部位の収録を確認。目的に合う部品だけ利用。"
+    },
+    {
+      "intent_id": "gate",
+      "aliases": [
+        "石門",
+        "城門",
+        "門",
+        "gate",
+        "stone gate"
+      ],
+      "primary_pack_ids": [
+        "kenney.castle-kit"
+      ],
+      "secondary_pack_ids": [
+        "kenney.fantasy-town-kit",
+        "kenney.modular-dungeon-kit"
+      ],
+      "note_ja": "門の候補。ポータルの光や遷移機能の完成品ではない。"
+    },
+    {
+      "intent_id": "nature",
+      "aliases": [
+        "木",
+        "樹木",
+        "森林",
+        "低木",
+        "tree",
+        "trees",
+        "foliage",
+        "bush"
+      ],
+      "primary_pack_ids": [
+        "kenney.nature-kit"
+      ],
+      "secondary_pack_ids": [
+        "kenney.mini-forest"
+      ],
+      "note_ja": "既存樹木と並べて丸さ・シルエットを確認。"
+    },
+    {
+      "intent_id": "rock",
+      "aliases": [
+        "岩",
+        "石",
+        "岩場",
+        "rock",
+        "stone"
+      ],
+      "primary_pack_ids": [
+        "kenney.nature-kit",
+        "kenney.modular-cave-kit"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "岩場の候補。3D岩が必要ならkind=model3dで絞る。"
+    },
+    {
+      "intent_id": "cave_boundary",
+      "aliases": [
+        "岩壁",
+        "洞窟",
+        "崖",
+        "外周",
+        "cave",
+        "cavern",
+        "cliff",
+        "rock wall",
+        "boundary"
+      ],
+      "primary_pack_ids": [
+        "kenney.modular-cave-kit"
+      ],
+      "secondary_pack_ids": [
+        "kenney.nature-kit"
+      ],
+      "note_ja": "接続済みRoomの地形を壊さず、外周や視線遮断材として確認。"
+    },
+    {
+      "intent_id": "snow",
+      "aliases": [
+        "雪",
+        "雪山",
+        "積雪",
+        "冬",
+        "snow",
+        "snowy",
+        "winter"
+      ],
+      "primary_pack_ids": [
+        "kenney.holiday-kit"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "雪山素材の候補であり、雪地形一式の確認済みカタログではない。"
+    },
+    {
+      "intent_id": "mushroom",
+      "aliases": [
+        "キノコ",
+        "きのこ",
+        "キノコ森林",
+        "mushroom",
+        "mushroom forest"
+      ],
+      "primary_pack_ids": [
+        "kenney.nature-kit"
+      ],
+      "secondary_pack_ids": [
+        "kenney.splat-pack",
+        "kenney.particle-pack"
+      ],
+      "note_ja": "キノコ3Dモデルの収録は未確認。VFX候補は胞子演出用で3Dモデルの代わりにはならない。"
+    },
+    {
+      "intent_id": "ruins",
+      "aliases": [
+        "遺跡",
+        "廃砦",
+        "ruin",
+        "ruins",
+        "fort"
+      ],
+      "primary_pack_ids": [
+        "kenney.castle-kit"
+      ],
+      "secondary_pack_ids": [
+        "kenney.fantasy-town-kit",
+        "kenney.retro-fantasy-kit",
+        "kenney.modular-dungeon-kit"
+      ],
+      "note_ja": "既存環境に合う石造部材を選抜。Retro系の表面表現に注意。"
+    },
+    {
+      "intent_id": "graveyard",
+      "aliases": [
+        "墓地",
+        "墓石",
+        "石碑",
+        "枯れ木",
+        "graveyard",
+        "tombstone",
+        "dead tree"
+      ],
+      "primary_pack_ids": [
+        "kenney.graveyard-kit"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "部品単位の収録を確認。通常森林へホラー要素を勝手に増やさない。"
+    },
+    {
+      "intent_id": "food",
+      "aliases": [
+        "食べ物",
+        "食料",
+        "料理",
+        "food",
+        "meal",
+        "kitchen"
+      ],
+      "primary_pack_ids": [
+        "kenney.food-kit"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "特定食材の有無を確認。見た目採用とアイテム効果実装は別。"
+    },
+    {
+      "intent_id": "particle",
+      "aliases": [
+        "火花",
+        "発光粒子",
+        "ヒットエフェクト",
+        "魔法エフェクト",
+        "spark",
+        "particle",
+        "hit effect",
+        "magic effect"
+      ],
+      "primary_pack_ids": [
+        "kenney.particle-pack"
+      ],
+      "secondary_pack_ids": [
+        "kenney.light-masks"
+      ],
+      "note_ja": "2Dの形素材からVFXを組む。完成済みUnityエフェクトではない。"
+    },
+    {
+      "intent_id": "smoke",
+      "aliases": [
+        "煙",
+        "土煙",
+        "砂煙",
+        "着地エフェクト",
+        "スライドエフェクト",
+        "smoke",
+        "dust",
+        "landing effect",
+        "slide effect"
+      ],
+      "primary_pack_ids": [
+        "kenney.smoke-particles"
+      ],
+      "secondary_pack_ids": [
+        "kenney.particle-pack"
+      ],
+      "note_ja": "明暗の違う場所で表示し、予兆を隠さない密度を確認。"
+    },
+    {
+      "intent_id": "splat",
+      "aliases": [
+        "毒",
+        "胞子",
+        "汚れ",
+        "飛沫",
+        "地面デカール",
+        "poison",
+        "spore",
+        "splat",
+        "stain",
+        "decal"
+      ],
+      "primary_pack_ids": [
+        "kenney.splat-pack"
+      ],
+      "secondary_pack_ids": [
+        "kenney.smoke-particles",
+        "kenney.particle-pack"
+      ],
+      "note_ja": "形と着色の候補。危険範囲や持続時間の機能はゲーム側の責務。"
+    },
+    {
+      "intent_id": "leaves",
+      "aliases": [
+        "葉っぱ",
+        "落ち葉",
+        "舞う葉",
+        "leaf",
+        "leaves",
+        "falling leaves"
+      ],
+      "primary_pack_ids": [
+        "kenney.foliage-sprites"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "2Dの葉素材。森林攻撃や環境粒子へ使う提案。"
+    },
+    {
+      "intent_id": "light_mask",
+      "aliases": [
+        "ライトマスク",
+        "光の模様",
+        "cookie",
+        "light mask"
+      ],
+      "primary_pack_ids": [
+        "kenney.light-masks"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "プロジェクター・Cookie・VFXへの利用候補。対応する描画設定を確認。"
+    },
+    {
+      "intent_id": "rune",
+      "aliases": [
+        "魔法陣",
+        "ルーン",
+        "紋章",
+        "魔法文字",
+        "rune",
+        "sigil",
+        "glyph",
+        "magic circle"
+      ],
+      "primary_pack_ids": [
+        "kenney.rune-pack",
+        "kenney.light-masks"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "完成魔法陣の保証ではなく、模様を組むための候補。"
+    },
+    {
+      "intent_id": "map",
+      "aliases": [
+        "ミニマップ",
+        "部屋マップ",
+        "地図",
+        "minimap",
+        "room map",
+        "map"
+      ],
+      "primary_pack_ids": [
+        "kenney.minimap-pack"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "8×8のピクセル表現が現行HUDに合うか確認。探索機能は付属しない。"
+    },
+    {
+      "intent_id": "input",
+      "aliases": [
+        "操作説明",
+        "キー表示",
+        "入力プロンプト",
+        "キーボード",
+        "input prompt",
+        "key prompt",
+        "keyboard",
+        "gamepad"
+      ],
+      "primary_pack_ids": [
+        "kenney.input-prompts"
+      ],
+      "secondary_pack_ids": [
+        "kenney.game-icons",
+        "kenney.game-icons-expansion"
+      ],
+      "note_ja": "機器別の絵を探す。実際のキー割当・デバイス対応とは別。"
+    },
+    {
+      "intent_id": "crosshair",
+      "aliases": [
+        "照準",
+        "クロスヘア",
+        "レティクル",
+        "crosshair",
+        "reticle"
+      ],
+      "primary_pack_ids": [
+        "kenney.crosshair-pack"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "見た目のみ差し替える。照準位置や弾道仕様を変更しない。"
+    },
+    {
+      "intent_id": "control_icon",
+      "aliases": [
+        "操作アイコン",
+        "汎用アイコン",
+        "control icon",
+        "game icon"
+      ],
+      "primary_pack_ids": [
+        "kenney.game-icons",
+        "kenney.game-icons-expansion"
+      ],
+      "secondary_pack_ids": [
+        "kenney.input-prompts"
+      ],
+      "note_ja": "ステータス専用アイコンがあるという意味ではない。"
+    },
+    {
+      "intent_id": "ui_panel",
+      "aliases": [
+        "パネル",
+        "ボタン",
+        "スライダー",
+        "ショップUI",
+        "インベントリUI",
+        "panel",
+        "button",
+        "slider",
+        "shop ui",
+        "inventory ui"
+      ],
+      "primary_pack_ids": [
+        "kenney.ui-pack-adventure",
+        "kenney.ui-pack-rpg-expansion"
+      ],
+      "secondary_pack_ids": [
+        "kenney.fantasy-ui-borders"
+      ],
+      "note_ja": "枠やボタンの素材。UIレイアウトや商品機能はゲーム側で作る。"
+    },
+    {
+      "intent_id": "card_frame",
+      "aliases": [
+        "カード枠",
+        "装飾枠",
+        "フレーム",
+        "card frame",
+        "border",
+        "frame"
+      ],
+      "primary_pack_ids": [
+        "kenney.fantasy-ui-borders"
+      ],
+      "secondary_pack_ids": [
+        "kenney.ui-pack-adventure",
+        "kenney.ui-pack-rpg-expansion"
+      ],
+      "note_ja": "現行の文字サイズ・余白を優先して選ぶ。"
+    },
+    {
+      "intent_id": "impact_sound",
+      "aliases": [
+        "打撃音",
+        "命中音",
+        "衝撃音",
+        "ヒット音",
+        "被弾音",
+        "着地音",
+        "impact sound",
+        "hit sound",
+        "landing sound"
+      ],
+      "primary_pack_ids": [
+        "kenney.impact-sounds"
+      ],
+      "secondary_pack_ids": [
+        "kenney.rpg-audio"
+      ],
+      "note_ja": "材質や重さの違いは試聴が必要。"
+    },
+    {
+      "intent_id": "weapon_sound",
+      "aliases": [
+        "武器音",
+        "剣の音",
+        "弓の音",
+        "振る音",
+        "sword sound",
+        "weapon sound",
+        "swing sound",
+        "bow sound"
+      ],
+      "primary_pack_ids": [
+        "kenney.rpg-audio"
+      ],
+      "secondary_pack_ids": [
+        "kenney.impact-sounds"
+      ],
+      "note_ja": "RPG Audioにweaponタグあり。個別の武器音は未確認。"
+    },
+    {
+      "intent_id": "footstep",
+      "aliases": [
+        "足音",
+        "歩く音",
+        "走る音",
+        "footstep",
+        "footsteps"
+      ],
+      "primary_pack_ids": [
+        "kenney.rpg-audio"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "footstepタグを確認。床材・テンポは試聴して合わせる。"
+    },
+    {
+      "intent_id": "ui_sound",
+      "aliases": [
+        "UI音",
+        "クリック音",
+        "ボタン音",
+        "決定音",
+        "キャンセル音",
+        "購入音",
+        "ui sound",
+        "click sound",
+        "confirm sound",
+        "purchase sound"
+      ],
+      "primary_pack_ids": [
+        "kenney.interface-sounds",
+        "kenney.ui-audio"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "操作の意味に合う音を選ぶ。購入専用音の存在は未確認。"
+    },
+    {
+      "intent_id": "reward_sound",
+      "aliases": [
+        "レベルアップ音",
+        "クリア音",
+        "ファンファーレ",
+        "勝利音",
+        "レア獲得音",
+        "level up",
+        "fanfare",
+        "jingle",
+        "victory sound"
+      ],
+      "primary_pack_ids": [
+        "kenney.music-jingles"
+      ],
+      "secondary_pack_ids": [
+        "kenney.interface-sounds"
+      ],
+      "note_ja": "Music Jinglesは祝う音楽の候補。各イベント専用品ではない。"
+    },
+    {
+      "intent_id": "coin_sound",
+      "aliases": [
+        "コイン音",
+        "お金の音",
+        "チップ音",
+        "サイコロ音",
+        "カード音",
+        "coin sound",
+        "money sound",
+        "chip sound",
+        "dice sound",
+        "card sound"
+      ],
+      "primary_pack_ids": [
+        "kenney.casino-audio"
+      ],
+      "secondary_pack_ids": [
+        "kenney.impact-sounds"
+      ],
+      "note_ja": "card/dice/chipタグを確認。金属硬貨の音は試聴前に断定しない。"
+    },
+    {
+      "intent_id": "sky",
+      "aliases": [
+        "空",
+        "スカイボックス",
+        "夜空",
+        "sky",
+        "skybox",
+        "skyboxes"
+      ],
+      "primary_pack_ids": [
+        "kenney.skyboxes"
+      ],
+      "secondary_pack_ids": [],
+      "note_ja": "床の切れ目・地面の浮きは別途修正が必要。"
+    }
+  ],
+  "assets": [
+    {
+      "id": "kenney.nature-kit",
+      "name": "Nature Kit",
+      "source_url": "https://kenney.nl/assets/nature-kit",
+      "kind": "model3d",
+      "official_metadata": {
+        "category": "3D",
+        "tags": [
+          "nature",
+          "tree",
+          "rock",
+          "foliage"
+        ],
+        "listed_file_count": 330,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "自然・木・岩・植生をテーマにした3Dパック。"
+      },
+      "keywords_ja": [
+        "自然",
+        "森林",
+        "森",
+        "木",
+        "樹木",
+        "針葉樹",
+        "低木",
+        "岩",
+        "石",
+        "植生",
+        "草",
+        "キノコ",
+        "切り株",
+        "丸太",
+        "崖",
+        "地形",
+        "外周",
+        "背景"
+      ],
+      "keywords_en": [
+        "nature",
+        "forest",
+        "tree",
+        "trees",
+        "foliage",
+        "bush",
+        "rock",
+        "stone",
+        "grass",
+        "mushroom",
+        "stump",
+        "log",
+        "cliff",
+        "terrain"
+      ],
+      "recommended_uses_ja": [
+        "森林Roomの植生・岩の候補",
+        "岩場や森林の外周を埋める部材探し",
+        "既存素材に馴染む自然物だけを選抜"
+      ],
+      "recommendation": {
+        "priority": 1,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "樹冠の丸さ・幹の太さ・岩の面構成を既存の角張ったローポリと比較。パック全体の置き換えではなく部品取り。"
+      },
+      "check_before_use_ja": [
+        "キノコ・崖・切り株などの個別モデルはアーカイブ未確認",
+        "実物のスケール・マテリアル・Colliderを確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.modular-cave-kit",
+      "name": "Modular Cave Kit",
+      "source_url": "https://kenney.nl/assets/modular-cave-kit",
+      "kind": "model3d",
+      "official_metadata": {
+        "category": "3D • Modular",
+        "tags": [
+          "tiles",
+          "modular",
+          "cave"
+        ],
+        "listed_file_count": 40,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "洞窟向けのモジュール式3Dパック。"
+      },
+      "keywords_ja": [
+        "洞窟",
+        "岩場",
+        "岩壁",
+        "崖",
+        "洞窟入口",
+        "切通し",
+        "外周",
+        "壁",
+        "天井",
+        "地形",
+        "モジュール",
+        "接続"
+      ],
+      "keywords_en": [
+        "cave",
+        "cavern",
+        "rock wall",
+        "cliff",
+        "tunnel",
+        "entrance",
+        "modular",
+        "tile",
+        "ceiling",
+        "boundary"
+      ],
+      "recommended_uses_ja": [
+        "岩場Roomの背景壁・洞窟入口の候補",
+        "外周の視線遮断",
+        "洞窟風の局所景観"
+      ],
+      "recommendation": {
+        "priority": 1,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "既存Roomの接続規格とは別。外周部材として試し、丸みや段差が強ければ採用箇所を限定。"
+      },
+      "check_before_use_ja": [
+        "入口・天井など具体パーツの有無と寸法を確認",
+        "Room Socket・経路・NavMeshを素材側の都合で変更しない"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.castle-kit",
+      "name": "Castle Kit",
+      "source_url": "https://kenney.nl/assets/castle-kit",
+      "kind": "model3d",
+      "official_metadata": {
+        "category": "3D",
+        "tags": [
+          "castle",
+          "medieval"
+        ],
+        "listed_file_count": 75,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "城・中世をテーマにした3Dパック。"
+      },
+      "keywords_ja": [
+        "城",
+        "城壁",
+        "砦",
+        "廃砦",
+        "遺跡",
+        "石壁",
+        "石門",
+        "門",
+        "塔",
+        "城門",
+        "石柱",
+        "中世",
+        "ランドマーク"
+      ],
+      "keywords_en": [
+        "castle",
+        "medieval",
+        "fort",
+        "ruin",
+        "stone wall",
+        "gate",
+        "tower",
+        "pillar",
+        "landmark"
+      ],
+      "recommended_uses_ja": [
+        "森林や岩場に置く遺跡の候補",
+        "ボス入口・休憩所の目印",
+        "石造の壁や門の部品取り"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "城全体を移植せず、シルエットと石の面構成が合う部材を少量使う提案。"
+      },
+      "check_before_use_ja": [
+        "門・塔・柱の具体的な収録と寸法を確認",
+        "装飾や丸い面取りが目立ちすぎないかゲーム視点で確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.fantasy-town-kit",
+      "name": "Fantasy Town Kit",
+      "source_url": "https://kenney.nl/assets/fantasy-town-kit",
+      "kind": "model3d",
+      "official_metadata": {
+        "category": "3D",
+        "tags": [
+          "medieval",
+          "wall",
+          "town",
+          "building"
+        ],
+        "listed_file_count": 160,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "中世の町・壁・建物をテーマにした3Dパック。"
+      },
+      "keywords_ja": [
+        "中世",
+        "町",
+        "建物",
+        "壁",
+        "屋根",
+        "柱",
+        "小屋",
+        "屋台",
+        "露店",
+        "店",
+        "ショップ",
+        "柵",
+        "橋",
+        "看板",
+        "木箱",
+        "樽",
+        "机",
+        "テント"
+      ],
+      "keywords_en": [
+        "medieval",
+        "town",
+        "building",
+        "wall",
+        "roof",
+        "pillar",
+        "hut",
+        "stall",
+        "market",
+        "shop",
+        "fence",
+        "bridge",
+        "sign",
+        "crate",
+        "barrel",
+        "table",
+        "tent"
+      ],
+      "recommended_uses_ja": [
+        "Shop Roomや休憩所の建築部材探し",
+        "野営地跡の小物候補",
+        "森林に置く人工物をひとまとまりで作る"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "町並みの全面採用ではなく、形と色が合う建築部材を選ぶ。キャンプ小物の一式収録とは扱わない。"
+      },
+      "check_before_use_ja": [
+        "屋台・テント・机・箱などは用途からの検索語であり収録未確認",
+        "既存商品の配置Anchorを動かさず周囲へ配置"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.survival-kit",
+      "name": "Survival Kit",
+      "source_url": "https://kenney.nl/assets/survival-kit",
+      "kind": "model3d",
+      "official_metadata": {
+        "category": "3D",
+        "tags": [
+          "survival",
+          "nature"
+        ],
+        "listed_file_count": 80,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "サバイバル・自然をテーマにした3Dパック。"
+      },
+      "keywords_ja": [
+        "サバイバル",
+        "キャンプ",
+        "野営地",
+        "休憩所",
+        "テント",
+        "焚き火",
+        "薪",
+        "丸太",
+        "ランタン",
+        "木箱",
+        "樽",
+        "作業台",
+        "机",
+        "柵",
+        "荷物"
+      ],
+      "keywords_en": [
+        "survival",
+        "nature",
+        "camp",
+        "campsite",
+        "tent",
+        "campfire",
+        "firewood",
+        "log",
+        "lantern",
+        "crate",
+        "barrel",
+        "workbench",
+        "table",
+        "fence",
+        "supplies"
+      ],
+      "recommended_uses_ja": [
+        "屋外休憩所の備品候補",
+        "放棄された野営地の部品探し",
+        "Shop脇の生活道具"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "既存の森と並べ、素材の丸さ・彩度・サイズが浮かない備品だけ選抜。"
+      },
+      "check_before_use_ja": [
+        "テント・焚き火・ランタン等の個別収録は未確認",
+        "アニメーション表記があっても必要な開閉動作があるとは限らない"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.graveyard-kit",
+      "name": "Graveyard Kit",
+      "source_url": "https://kenney.nl/assets/graveyard-kit",
+      "kind": "model3d",
+      "official_metadata": {
+        "category": "3D",
+        "tags": [
+          "graveyard",
+          "halloween",
+          "horror",
+          "monster",
+          "spooky"
+        ],
+        "listed_file_count": 90,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "墓地・ホラーをテーマにした3Dパック。"
+      },
+      "keywords_ja": [
+        "墓地",
+        "墓",
+        "墓石",
+        "石碑",
+        "不気味",
+        "枯れ木",
+        "枯木",
+        "柵",
+        "遺跡",
+        "特殊部屋",
+        "祭壇",
+        "ホラー"
+      ],
+      "keywords_en": [
+        "graveyard",
+        "grave",
+        "tombstone",
+        "spooky",
+        "dead tree",
+        "fence",
+        "ruin",
+        "altar",
+        "horror"
+      ],
+      "recommended_uses_ja": [
+        "不穏な特殊Item Roomの候補",
+        "枯れた景観・石碑の部品探し",
+        "普通の森と異なる小テーマ"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "常設の森全体ではなく局所的な不穏な場所向け。既存モンスターの造形とは切り離して選ぶ。"
+      },
+      "check_before_use_ja": [
+        "墓石・枯れ木・祭壇など個別モデルを確認",
+        "ホラー小物を増やすだけで新しいゲーム要素を追加しない"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.holiday-kit",
+      "name": "Holiday Kit",
+      "source_url": "https://kenney.nl/assets/holiday-kit",
+      "kind": "model3d",
+      "official_metadata": {
+        "category": "3D",
+        "tags": [
+          "holiday",
+          "christmas",
+          "tree",
+          "cabin"
+        ],
+        "listed_file_count": 100,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "ホリデー・クリスマス・木・小屋をテーマにした3Dパック。"
+      },
+      "keywords_ja": [
+        "雪",
+        "雪山",
+        "雪景",
+        "冬",
+        "積雪",
+        "雪塊",
+        "雪の木",
+        "針葉樹",
+        "小屋",
+        "木造",
+        "山小屋",
+        "クリスマス"
+      ],
+      "keywords_en": [
+        "snow",
+        "winter",
+        "snowy",
+        "snow mound",
+        "pine",
+        "cabin",
+        "hut",
+        "holiday",
+        "christmas"
+      ],
+      "recommended_uses_ja": [
+        "雪山用の小屋や木の候補",
+        "雪のある生活風景の部品取り"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "クリスマス装飾を主題にせず、雪山に自然な部品だけ確認する。雪地形一式が揃うとは扱わない。"
+      },
+      "check_before_use_ja": [
+        "雪塊・積雪モデルの個別収録を確認",
+        "プレゼント・飾り・玩具的な丸さが目立つ部品は用途を選ぶ"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.building-kit",
+      "name": "Building Kit",
+      "source_url": "https://kenney.nl/assets/building-kit",
+      "kind": "model3d",
+      "official_metadata": {
+        "category": "3D",
+        "tags": [
+          "building",
+          "structure",
+          "house"
+        ],
+        "listed_file_count": 80,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "建物・構造物・家をテーマにした3Dパック。"
+      },
+      "keywords_ja": [
+        "建物",
+        "建築",
+        "構造物",
+        "家",
+        "小屋",
+        "壁",
+        "屋根",
+        "柱",
+        "扉",
+        "窓",
+        "店",
+        "休憩所"
+      ],
+      "keywords_en": [
+        "building",
+        "structure",
+        "house",
+        "hut",
+        "wall",
+        "roof",
+        "pillar",
+        "door",
+        "window",
+        "shop",
+        "hub"
+      ],
+      "recommended_uses_ja": [
+        "Shopや休憩所の小さな建築部材",
+        "屋根や壁など不足パーツの候補"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "建物を増やす目的では使わず、必要な部材だけ探す。世界観と面取りを確認。"
+      },
+      "check_before_use_ja": [
+        "屋根・柱・窓の収録形状とサイズを確認",
+        "ゲームの通路幅・カメラ余白を守る"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.furniture-kit",
+      "name": "Furniture Kit",
+      "source_url": "https://kenney.nl/assets/furniture-kit",
+      "kind": "model3d",
+      "official_metadata": {
+        "category": "3D",
+        "tags": [
+          "furniture",
+          "interior",
+          "table",
+          "chair",
+          "bed"
+        ],
+        "listed_file_count": 140,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "家具・室内・机・椅子・ベッドが公式タグに挙がる3Dパック。"
+      },
+      "keywords_ja": [
+        "机",
+        "テーブル",
+        "デスク",
+        "作業台",
+        "商品台",
+        "陳列台",
+        "家具",
+        "椅子",
+        "いす",
+        "イス",
+        "棚",
+        "ラック",
+        "本棚",
+        "ベッド",
+        "室内"
+      ],
+      "keywords_en": [
+        "table",
+        "desk",
+        "workbench",
+        "display table",
+        "furniture",
+        "chair",
+        "seat",
+        "shelf",
+        "shelves",
+        "rack",
+        "bookcase",
+        "bed",
+        "interior"
+      ],
+      "recommended_uses_ja": [
+        "店の商品台・机の第一候補",
+        "休憩所の座る場所",
+        "棚などの補助家具を探す"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "机は公式tableタグで裏づけ。現代風家具や丸い家具が合わなければ角張った部品に限定。"
+      },
+      "check_before_use_ja": [
+        "机の具体的な種類・棚・ラック・作業台はファイル一覧で確認",
+        "サイズ・角の丸み・脚の形を現在の店と比較"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.food-kit",
+      "name": "Food Kit",
+      "source_url": "https://kenney.nl/assets/food-kit",
+      "kind": "model3d",
+      "official_metadata": {
+        "category": "3D",
+        "tags": [
+          "food",
+          "kitchen",
+          "eat"
+        ],
+        "listed_file_count": 200,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "食べ物・台所をテーマにした3Dパック。"
+      },
+      "keywords_ja": [
+        "食べ物",
+        "食料",
+        "料理",
+        "食事",
+        "パン",
+        "果物",
+        "野菜",
+        "肉",
+        "皿",
+        "調理器具",
+        "厨房",
+        "キャンプ小物",
+        "店の飾り",
+        "アイテム"
+      ],
+      "keywords_en": [
+        "food",
+        "kitchen",
+        "eat",
+        "bread",
+        "fruit",
+        "vegetable",
+        "meat",
+        "plate",
+        "cookware",
+        "meal",
+        "prop"
+      ],
+      "recommended_uses_ja": [
+        "キャンプや店の食料小物",
+        "Shop・Inventoryで使うアイテム見た目の候補"
+      ],
+      "recommendation": {
+        "priority": 3,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "食べ物の丸さは許容できる場合があるが、低ポリの面構成と彩度を合わせる。"
+      },
+      "check_before_use_ja": [
+        "特定の食材・皿・調理器具の有無を確認",
+        "食料モデルを採用しても回復効果などは勝手に追加しない"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.mini-forest",
+      "name": "Mini Forest",
+      "source_url": "https://kenney.nl/assets/mini-forest",
+      "kind": "model3d",
+      "official_metadata": {
+        "category": "3D • Mini",
+        "tags": [
+          "forest",
+          "archer",
+          "tent",
+          "base"
+        ],
+        "listed_file_count": 20,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "森林・弓兵・テント・拠点をテーマにしたMiniシリーズの3Dパック。"
+      },
+      "keywords_ja": [
+        "森",
+        "森林",
+        "ミニ",
+        "テント",
+        "拠点",
+        "キャンプ",
+        "弓兵"
+      ],
+      "keywords_en": [
+        "forest",
+        "mini",
+        "tent",
+        "base",
+        "camp",
+        "archer"
+      ],
+      "recommended_uses_ja": [
+        "他候補にない小さなテントや拠点小物を探す補欠"
+      ],
+      "recommendation": {
+        "priority": 3,
+        "style_fit": "caution",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "Miniシリーズのデフォルメや寸法感を要確認。現行の森林表現への全面置換は避け、代替候補として扱う。"
+      },
+      "check_before_use_ja": [
+        "モデルを実際に並べて丸さ・頭身・サイズを比較",
+        "木やテントの細かな種類は未確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.modular-dungeon-kit",
+      "name": "Modular Dungeon Kit",
+      "source_url": "https://kenney.nl/assets/modular-dungeon-kit",
+      "kind": "model3d",
+      "official_metadata": {
+        "category": "3D • Modular",
+        "tags": [
+          "dungeon",
+          "modular",
+          "tiles"
+        ],
+        "listed_file_count": 40,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "ダンジョン向けのモジュール式3Dパック。"
+      },
+      "keywords_ja": [
+        "ダンジョン",
+        "洞窟",
+        "地下",
+        "壁",
+        "柱",
+        "入口",
+        "床",
+        "通路",
+        "遺跡",
+        "モジュール",
+        "接続",
+        "部屋"
+      ],
+      "keywords_en": [
+        "dungeon",
+        "modular",
+        "tile",
+        "wall",
+        "pillar",
+        "entrance",
+        "floor",
+        "corridor",
+        "ruin",
+        "room"
+      ],
+      "recommended_uses_ja": [
+        "遺跡の柱・入口など部品取り候補",
+        "接続構造の参考"
+      ],
+      "recommendation": {
+        "priority": 3,
+        "style_fit": "caution",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "色・面取り・丸さが現行の森林と合うか特に確認。既存Generatorをこの素材規格へ置き換えない。"
+      },
+      "check_before_use_ja": [
+        "柱・入口・床の具体的な収録を確認",
+        "今回のゲームのSocket寸法・高低差・視線遮断条件と照合"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.retro-fantasy-kit",
+      "name": "Retro Fantasy Kit",
+      "source_url": "https://kenney.nl/assets/retro-fantasy-kit",
+      "kind": "model3d",
+      "official_metadata": {
+        "category": "3D • Retro",
+        "tags": [
+          "retro",
+          "medieval",
+          "castle",
+          "building",
+          "town"
+        ],
+        "listed_file_count": 100,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "レトロ・中世・城・建物・町をテーマにした3Dパック。"
+      },
+      "keywords_ja": [
+        "レトロ",
+        "ファンタジー",
+        "中世",
+        "城",
+        "遺跡",
+        "建物",
+        "町",
+        "ローポリ",
+        "旧Retro Medieval"
+      ],
+      "keywords_en": [
+        "retro",
+        "fantasy",
+        "medieval",
+        "castle",
+        "building",
+        "town",
+        "ruin",
+        "retro medieval kit"
+      ],
+      "recommended_uses_ja": [
+        "レトロ寄りの遺跡・建築部材を探す補欠"
+      ],
+      "recommendation": {
+        "priority": 3,
+        "style_fit": "caution",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "丸さ以外にレトロな表面表現が既存の単色ローポリと合うか確認。混ぜるなら局所的に。"
+      },
+      "check_before_use_ja": [
+        "テクスチャ・マテリアル・実モデルを確認",
+        "旧Retro Medieval URLとのアーカイブ同一性は未検証"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.particle-pack",
+      "name": "Particle Pack",
+      "source_url": "https://kenney.nl/assets/particle-pack",
+      "kind": "vfx2d",
+      "official_metadata": {
+        "category": "2D • VFX",
+        "tags": [
+          "particle",
+          "shader",
+          "vfx"
+        ],
+        "listed_file_count": 80,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "パーティクル・シェーダー用の2D VFX素材。公式のタイルサイズ表記は512×512。"
+      },
+      "keywords_ja": [
+        "パーティクル",
+        "粒子",
+        "エフェクト",
+        "発光",
+        "火花",
+        "ヒット",
+        "命中",
+        "斬撃",
+        "魔法",
+        "オーブ",
+        "経験値",
+        "レベルアップ",
+        "報酬"
+      ],
+      "keywords_en": [
+        "particle",
+        "particles",
+        "shader",
+        "vfx",
+        "effect",
+        "spark",
+        "hit",
+        "impact",
+        "slash",
+        "magic",
+        "orb",
+        "xp",
+        "level up",
+        "reward"
+      ],
+      "recommended_uses_ja": [
+        "攻撃・命中VFXを重ねる形素材",
+        "XP・Level Up・報酬演出の粒子"
+      ],
+      "recommendation": {
+        "priority": 1,
+        "style_fit": "adaptable",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "発光層だけでなく非発光色や暗い下地と重ねる。完成済みUnityエフェクトではなく形素材として利用。"
+      },
+      "check_before_use_ja": [
+        "欲しい火花・斬撃等の形をプレビューで確認",
+        "Particle Systemの動き・寿命・描画順はゲーム側で設定"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.light-masks",
+      "name": "Light Masks",
+      "source_url": "https://kenney.nl/assets/light-masks",
+      "kind": "vfx2d",
+      "official_metadata": {
+        "category": "2D • VFX",
+        "tags": [
+          "light",
+          "shader",
+          "vfx",
+          "cookie"
+        ],
+        "listed_file_count": 150,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "光・シェーダー・VFX・ライトCookie用途のマスク素材。"
+      },
+      "keywords_ja": [
+        "光",
+        "ライト",
+        "マスク",
+        "ライトマスク",
+        "Cookie",
+        "クッキー",
+        "魔法陣",
+        "投影",
+        "照明",
+        "攻撃予兆",
+        "床の光",
+        "ゲート",
+        "ポータル"
+      ],
+      "keywords_en": [
+        "light",
+        "light mask",
+        "mask",
+        "shader",
+        "vfx",
+        "cookie",
+        "projection",
+        "magic circle",
+        "telegraph",
+        "portal"
+      ],
+      "recommended_uses_ja": [
+        "地面に投影する光や模様",
+        "魔法・ゲート演出の形素材",
+        "照明の模様を作る候補"
+      ],
+      "recommendation": {
+        "priority": 1,
+        "style_fit": "adaptable",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "明るい場所でも輪郭が消えないよう下地を併用。マスクの形をそのまま攻撃判定にしない。"
+      },
+      "check_before_use_ja": [
+        "特定の魔法陣模様が含まれるか確認",
+        "使う描画経路に合わせたマスク・マテリアル設定が必要"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.smoke-particles",
+      "name": "Smoke Particles",
+      "source_url": "https://kenney.nl/assets/smoke-particles",
+      "kind": "vfx2d",
+      "official_metadata": {
+        "category": "2D • VFX",
+        "tags": [
+          "particle",
+          "smoke",
+          "explosion",
+          "vfx"
+        ],
+        "listed_file_count": 70,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "煙・爆発をテーマにした2D VFX素材。"
+      },
+      "keywords_ja": [
+        "煙",
+        "けむり",
+        "土煙",
+        "砂煙",
+        "粉塵",
+        "ほこり",
+        "着地",
+        "急停止",
+        "スライド",
+        "爆発",
+        "敵死亡",
+        "暗い下地",
+        "重量感"
+      ],
+      "keywords_en": [
+        "smoke",
+        "dust",
+        "particle",
+        "explosion",
+        "vfx",
+        "landing",
+        "skid",
+        "slide",
+        "death",
+        "dark underlay",
+        "weight"
+      ],
+      "recommended_uses_ja": [
+        "スライド・着地・急停止の接地演出",
+        "爆発や敵死亡の煙",
+        "発光VFXの下に置く暗い形"
+      ],
+      "recommendation": {
+        "priority": 1,
+        "style_fit": "adaptable",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "接地位置と発生時刻を合わせて使用。煙で敵の攻撃予兆を覆わない。"
+      },
+      "check_before_use_ja": [
+        "粉塵として使える形を選ぶ",
+        "白背景・暗い背景の両方で輪郭と透明度を確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.splat-pack",
+      "name": "Splat Pack",
+      "source_url": "https://kenney.nl/assets/splat-pack",
+      "kind": "vfx2d",
+      "official_metadata": {
+        "category": "2D • VFX",
+        "tags": [
+          "splat",
+          "texture",
+          "vfx"
+        ],
+        "listed_file_count": 30,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "飛沫・しみ形状をテーマにした2D VFX素材。"
+      },
+      "keywords_ja": [
+        "飛沫",
+        "しぶき",
+        "しみ",
+        "汚れ",
+        "毒",
+        "胞子",
+        "泥",
+        "魔法跡",
+        "爆発跡",
+        "地面デカール",
+        "キノコ"
+      ],
+      "keywords_en": [
+        "splat",
+        "splash",
+        "stain",
+        "texture",
+        "vfx",
+        "poison",
+        "spore",
+        "mud",
+        "decal",
+        "impact mark",
+        "mushroom"
+      ],
+      "recommended_uses_ja": [
+        "キノコ森林の胞子・毒の見た目",
+        "地面に残す魔法や爆発の跡"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "adaptable",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "単体で毒や胞子の完成エフェクトではない。着色・寿命・表示面をゲーム側で作る用途。"
+      },
+      "check_before_use_ja": [
+        "欲しい飛沫形状を確認",
+        "地面から浮く・重なる・危険範囲と紛らわしい表示を避ける"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.foliage-sprites",
+      "name": "Foliage Sprites",
+      "source_url": "https://kenney.nl/assets/foliage-sprites",
+      "kind": "vfx2d",
+      "official_metadata": {
+        "category": "2D • VFX",
+        "tags": [
+          "nature",
+          "foliage",
+          "vfx"
+        ],
+        "listed_file_count": 50,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "自然・植生をテーマにした2D VFX素材。"
+      },
+      "keywords_ja": [
+        "葉",
+        "葉っぱ",
+        "落ち葉",
+        "舞う葉",
+        "草",
+        "植生",
+        "木の葉",
+        "森林",
+        "森",
+        "風",
+        "木属性"
+      ],
+      "keywords_en": [
+        "leaf",
+        "leaves",
+        "foliage",
+        "nature",
+        "vfx",
+        "grass",
+        "forest",
+        "wind",
+        "falling leaves"
+      ],
+      "recommended_uses_ja": [
+        "葉が舞う森林の環境VFX",
+        "草・木の葉が散る攻撃や接地表現"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "adaptable",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "3D樹木の置き換えではなく葉や草の粒子として使う提案。"
+      },
+      "check_before_use_ja": [
+        "必要な葉形状を確認",
+        "ビルボードが不自然にカメラ追従しないか実画面で確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.skyboxes",
+      "name": "Skyboxes",
+      "source_url": "https://kenney.nl/assets/skyboxes",
+      "kind": "texture",
+      "official_metadata": {
+        "category": "Textures",
+        "tags": [
+          "skybox",
+          "sky",
+          "clouds",
+          "space",
+          "stars"
+        ],
+        "listed_file_count": 5,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "空・雲・宇宙・星をテーマにしたSkyboxテクスチャ。"
+      },
+      "keywords_ja": [
+        "空",
+        "スカイボックス",
+        "空模様",
+        "背景",
+        "雲",
+        "星",
+        "宇宙",
+        "夜空",
+        "地平線",
+        "遠景"
+      ],
+      "keywords_en": [
+        "skybox",
+        "skyboxes",
+        "sky",
+        "clouds",
+        "space",
+        "stars",
+        "night sky",
+        "background",
+        "horizon"
+      ],
+      "recommended_uses_ja": [
+        "単色の空を差し替える候補",
+        "休憩所の昼夜比較",
+        "森林・岩場・雪山の空の候補"
+      ],
+      "recommendation": {
+        "priority": 1,
+        "style_fit": "adaptable",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "地面の浮きや床の切れ目そのものは解決しない。空の見え方を整える用途。"
+      },
+      "check_before_use_ja": [
+        "希望の天候・時刻の画像が含まれるか確認",
+        "露出・地平線位置・継ぎ目・現在のライティングとの相性を確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.minimap-pack",
+      "name": "Minimap Pack",
+      "source_url": "https://kenney.nl/assets/minimap-pack",
+      "kind": "ui2d",
+      "official_metadata": {
+        "category": "2D",
+        "tags": [
+          "minimap",
+          "search action",
+          "metroidvania",
+          "map",
+          "pixel",
+          "ui"
+        ],
+        "listed_file_count": 150,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "ミニマップ・地図向けの2D素材。公式のタイルサイズ表記は8×8。"
+      },
+      "keywords_ja": [
+        "ミニマップ",
+        "地図",
+        "マップ",
+        "部屋マップ",
+        "探索",
+        "探索済み",
+        "未探索",
+        "通路",
+        "扉",
+        "部屋アイコン",
+        "店マーク",
+        "狩場マーク"
+      ],
+      "keywords_en": [
+        "minimap",
+        "map",
+        "room map",
+        "discovery",
+        "explored",
+        "unexplored",
+        "corridor",
+        "door",
+        "room icon",
+        "shop marker"
+      ],
+      "recommended_uses_ja": [
+        "探索済みRoomや接続を記録するミニマップの部品",
+        "部屋状態を表す記号候補"
+      ],
+      "recommendation": {
+        "priority": 1,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "8×8のピクセル表現が現行HUDに合うか確認。Shopや狩場の専用マークがあるとは断定しない。"
+      },
+      "check_before_use_ja": [
+        "必要な部屋記号を確認",
+        "拡大時の見た目・線幅・読めるサイズを確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.input-prompts",
+      "name": "Input Prompts",
+      "source_url": "https://kenney.nl/assets/input-prompts",
+      "kind": "ui2d",
+      "official_metadata": {
+        "category": "2D • Input Prompts",
+        "tags": [
+          "input",
+          "prompt",
+          "button",
+          "gamepad",
+          "control",
+          "interface"
+        ],
+        "listed_file_count": 1500,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "操作ボタン表示。公式ページにKeyboard & mouse、複数ゲームパッドなどの収録対象が列挙されている。"
+      },
+      "keywords_ja": [
+        "操作説明",
+        "キー表示",
+        "キーボード",
+        "マウス",
+        "ボタン表示",
+        "入力プロンプト",
+        "ゲームパッド",
+        "コントローラー",
+        "拾う",
+        "Eキー",
+        "Shiftキー",
+        "Spaceキー"
+      ],
+      "keywords_en": [
+        "input",
+        "prompt",
+        "button",
+        "gamepad",
+        "control",
+        "interface",
+        "keyboard",
+        "mouse",
+        "controller",
+        "key prompt",
+        "pickup"
+      ],
+      "recommended_uses_ja": [
+        "Eで拾う・Shiftでスライドなどの操作表示",
+        "設定やチュートリアル",
+        "入力機器に合わせるボタン画像"
+      ],
+      "recommendation": {
+        "priority": 1,
+        "style_fit": "adaptable",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "現在の入力割当と一致する画像だけ使用。素材を入れただけでコントローラー対応にはしない。"
+      },
+      "check_before_use_ja": [
+        "選んだ入力機器・スタイルの個別ファイルを確認",
+        "文字サイズと背景コントラストを確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.crosshair-pack",
+      "name": "Crosshair Pack",
+      "source_url": "https://kenney.nl/assets/crosshair-pack",
+      "kind": "ui2d",
+      "official_metadata": {
+        "category": "2D",
+        "tags": [
+          "crosshair",
+          "shooter",
+          "fps",
+          "interface"
+        ],
+        "listed_file_count": 200,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "照準用2D素材。公式のタイルサイズ表記は64×64。"
+      },
+      "keywords_ja": [
+        "照準",
+        "クロスヘア",
+        "レティクル",
+        "エイム",
+        "命中マーカー",
+        "ヒットマーカー",
+        "中央点",
+        "照準枠"
+      ],
+      "keywords_en": [
+        "crosshair",
+        "reticle",
+        "aim",
+        "shooter",
+        "fps",
+        "interface",
+        "hit marker",
+        "center dot"
+      ],
+      "recommended_uses_ja": [
+        "三人称射撃の照準形状の候補",
+        "命中・チャージ表示へ組み合わせる部品"
+      ],
+      "recommendation": {
+        "priority": 1,
+        "style_fit": "adaptable",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "照準の絵だけを使い、既存のCamera Aim・弾道・中央座標の意味は変えない。"
+      },
+      "check_before_use_ja": [
+        "特定のチャージや命中マーカー形状を確認",
+        "現行画面でサイズ・線幅・背景に埋もれないか確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.game-icons",
+      "name": "Game Icons",
+      "source_url": "https://kenney.nl/assets/game-icons",
+      "kind": "ui2d",
+      "official_metadata": {
+        "category": "2D",
+        "tags": [
+          "icon",
+          "gamepad",
+          "joystick",
+          "prompt",
+          "interface"
+        ],
+        "listed_file_count": 105,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "アイコン・操作プロンプト・インターフェース向けの2Dパック。"
+      },
+      "keywords_ja": [
+        "アイコン",
+        "操作アイコン",
+        "汎用アイコン",
+        "ゲームパッド",
+        "ジョイスティック",
+        "プロンプト",
+        "メニュー",
+        "操作説明"
+      ],
+      "keywords_en": [
+        "icon",
+        "game icon",
+        "gamepad",
+        "joystick",
+        "prompt",
+        "interface",
+        "menu",
+        "control"
+      ],
+      "recommended_uses_ja": [
+        "操作説明や補助メニューの記号候補"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "adaptable",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "公式タグは操作・インターフェース寄り。HP・防御・武器種の専用アイコン一式とは扱わない。"
+      },
+      "check_before_use_ja": [
+        "必要なアイコン自体の有無を確認",
+        "Input Promptsと同じ役割なら既存採用分へ統一"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.game-icons-expansion",
+      "name": "Game Icons (Expansion)",
+      "source_url": "https://kenney.nl/assets/game-icons-expansion",
+      "kind": "ui2d",
+      "official_metadata": {
+        "category": "2D",
+        "tags": [
+          "icon",
+          "prompt",
+          "gamepad",
+          "joystick",
+          "interface"
+        ],
+        "listed_file_count": 60,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "Game Icons系の拡張2Dパック。"
+      },
+      "keywords_ja": [
+        "アイコン",
+        "操作アイコン",
+        "汎用アイコン",
+        "拡張アイコン",
+        "ゲームパッド",
+        "ジョイスティック",
+        "操作説明",
+        "メニュー"
+      ],
+      "keywords_en": [
+        "icon",
+        "game icons expansion",
+        "prompt",
+        "gamepad",
+        "joystick",
+        "interface",
+        "menu",
+        "control"
+      ],
+      "recommended_uses_ja": [
+        "既存の操作アイコンに不足がある場合の補完"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "adaptable",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "基本パックやInput Promptsと線幅を揃えて選ぶ。専用ステータスアイコンの収録は未確認。"
+      },
+      "check_before_use_ja": [
+        "追加分の実ファイルを確認",
+        "別系列アイコンを無秩序に混ぜない"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.rune-pack",
+      "name": "Rune Pack",
+      "source_url": "https://kenney.nl/assets/rune-pack",
+      "kind": "ui2d",
+      "official_metadata": {
+        "category": "2D",
+        "tags": [
+          "rune",
+          "stone",
+          "tile",
+          "puzzle"
+        ],
+        "listed_file_count": 640,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "ルーン・石・タイル・パズルをテーマにした2D素材。"
+      },
+      "keywords_ja": [
+        "ルーン",
+        "紋章",
+        "記号",
+        "魔法文字",
+        "魔法陣",
+        "刻印",
+        "祭壇",
+        "石碑",
+        "特殊アイテム",
+        "杖",
+        "スキル背景"
+      ],
+      "keywords_en": [
+        "rune",
+        "symbol",
+        "sigil",
+        "glyph",
+        "stone",
+        "tile",
+        "puzzle",
+        "magic circle",
+        "engraving",
+        "altar"
+      ],
+      "recommended_uses_ja": [
+        "特殊アイテム・杖・祭壇の紋章候補",
+        "強化カードの背景記号",
+        "魔法陣の一要素"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "adaptable",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "3Dの石碑や祭壇ではなく2D模様。完成した魔法陣ではなく組み合わせ素材として扱う。"
+      },
+      "check_before_use_ja": [
+        "個別ルーンの形と背景の有無を確認",
+        "UIやVFXに転用する際の可読性を確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.ui-pack-adventure",
+      "name": "UI Pack - Adventure",
+      "source_url": "https://kenney.nl/assets/ui-pack-adventure",
+      "kind": "ui2d",
+      "official_metadata": {
+        "category": "2D • UI Pack",
+        "tags": [
+          "button",
+          "panel",
+          "slider",
+          "interface"
+        ],
+        "listed_file_count": 130,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "ボタン・パネル・スライダーの2D UIパック。"
+      },
+      "keywords_ja": [
+        "UI",
+        "ボタン",
+        "パネル",
+        "ウィンドウ",
+        "スライダー",
+        "メニュー",
+        "ショップUI",
+        "インベントリ",
+        "強化画面",
+        "カード枠",
+        "枠"
+      ],
+      "keywords_en": [
+        "ui",
+        "button",
+        "panel",
+        "slider",
+        "interface",
+        "menu",
+        "window",
+        "shop ui",
+        "inventory",
+        "upgrade screen",
+        "frame"
+      ],
+      "recommended_uses_ja": [
+        "Shopや強化画面の部品取り",
+        "設定メニューの枠や操作部品"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "UI全体を置き換えず必要な部品だけ利用。現在の日本語サイズ・余白・配色を優先。"
+      },
+      "check_before_use_ja": [
+        "必要な枠やスライダーの状態画像を確認",
+        "長い日本語・解像度変更で文字が切れないか確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.ui-pack-rpg-expansion",
+      "name": "UI Pack (RPG Expansion)",
+      "source_url": "https://kenney.nl/assets/ui-pack-rpg-expansion",
+      "kind": "ui2d",
+      "official_metadata": {
+        "category": "2D",
+        "tags": [
+          "button",
+          "panel",
+          "slider",
+          "rpg",
+          "interface"
+        ],
+        "listed_file_count": 85,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "RPG向けのボタン・パネル・スライダーの2D UI素材。"
+      },
+      "keywords_ja": [
+        "RPG",
+        "UI",
+        "ボタン",
+        "パネル",
+        "スライダー",
+        "ショップUI",
+        "インベントリ",
+        "装備画面",
+        "枠",
+        "強化画面"
+      ],
+      "keywords_en": [
+        "rpg",
+        "ui",
+        "button",
+        "panel",
+        "slider",
+        "interface",
+        "shop ui",
+        "inventory",
+        "equipment",
+        "frame"
+      ],
+      "recommended_uses_ja": [
+        "RPGの買い物・装備画面の補助部品",
+        "既存UIに不足する枠の候補"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "採用するUI系列を揃える。Adventure系と必ず同じデザインとはみなさない。"
+      },
+      "check_before_use_ja": [
+        "必要なパーツと解像度を確認",
+        "UIの既製感や装飾過多に注意"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.fantasy-ui-borders",
+      "name": "Fantasy UI Borders",
+      "source_url": "https://kenney.nl/assets/fantasy-ui-borders",
+      "kind": "ui2d",
+      "official_metadata": {
+        "category": "2D",
+        "tags": [
+          "panel",
+          "button",
+          "interface",
+          "decorative",
+          "rpg",
+          "fantasy"
+        ],
+        "listed_file_count": 140,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "ファンタジーRPG向けの装飾的なUI枠素材。"
+      },
+      "keywords_ja": [
+        "枠",
+        "装飾枠",
+        "カード枠",
+        "フレーム",
+        "ファンタジー",
+        "レア",
+        "特殊アイテム",
+        "強化カード",
+        "ボス表示",
+        "パネル"
+      ],
+      "keywords_en": [
+        "border",
+        "frame",
+        "decorative",
+        "fantasy",
+        "rpg",
+        "panel",
+        "button",
+        "card frame",
+        "rare",
+        "boss ui"
+      ],
+      "recommended_uses_ja": [
+        "特殊アイテムや強化カードの枠",
+        "ここぞという場面の装飾"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "selective",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "常時HUDより重要カード向けという提案。文字や絵の主役を装飾で圧迫しない。"
+      },
+      "check_before_use_ja": [
+        "枠のサイズと余白を確認",
+        "縮小時の細線・日本語・複数カードの密度を確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": null
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.impact-sounds",
+      "name": "Impact Sounds",
+      "source_url": "https://kenney.nl/assets/impact-sounds",
+      "kind": "audio",
+      "official_metadata": {
+        "category": "Audio",
+        "tags": [
+          "impact",
+          "foley"
+        ],
+        "listed_file_count": 130,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "衝撃・フォーリーの効果音パック。"
+      },
+      "keywords_ja": [
+        "衝撃音",
+        "打撃音",
+        "ヒット音",
+        "命中音",
+        "被弾音",
+        "着地音",
+        "重い音",
+        "剣の命中",
+        "壁に当たる音",
+        "ノックバック"
+      ],
+      "keywords_en": [
+        "impact",
+        "foley",
+        "hit sound",
+        "hit",
+        "collision",
+        "landing",
+        "heavy hit",
+        "knockback",
+        "sword impact"
+      ],
+      "recommended_uses_ja": [
+        "敵への命中や被弾の音を探す第一候補",
+        "重攻撃・着地・衝突の重量感"
+      ],
+      "recommendation": {
+        "priority": 1,
+        "style_fit": "audition_required",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "今回の調査では試聴していない。低音・鋭さ・長さが実際の攻撃に合う音を選ぶ。"
+      },
+      "check_before_use_ja": [
+        "金属・肉・木など希望する材質音の収録を確認",
+        "実際のミックス内で音量・重複・耳障りさを確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": false
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.rpg-audio",
+      "name": "RPG Audio",
+      "source_url": "https://kenney.nl/assets/rpg-audio",
+      "kind": "audio",
+      "official_metadata": {
+        "category": "Audio",
+        "tags": [
+          "foley",
+          "rpg",
+          "footstep",
+          "weapon"
+        ],
+        "listed_file_count": 50,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "RPG・足音・武器をテーマにした効果音パック。"
+      },
+      "keywords_ja": [
+        "RPG音",
+        "足音",
+        "歩く音",
+        "走る音",
+        "武器音",
+        "剣の音",
+        "振る音",
+        "弓の音",
+        "攻撃音",
+        "装備音"
+      ],
+      "keywords_en": [
+        "rpg",
+        "foley",
+        "footstep",
+        "footsteps",
+        "weapon",
+        "sword sound",
+        "swing",
+        "bow sound",
+        "attack sound",
+        "equip"
+      ],
+      "recommended_uses_ja": [
+        "足音や武器操作音の候補",
+        "振る音と命中音を分ける素材探し"
+      ],
+      "recommendation": {
+        "priority": 1,
+        "style_fit": "audition_required",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "足音・武器のテーマは公式タグで確認。特定の剣・弓の音は個別に確認する。"
+      },
+      "check_before_use_ja": [
+        "希望の動作・材質音があるか試聴",
+        "武器モーション・歩行接地と発生時刻を合わせる"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": false
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.interface-sounds",
+      "name": "Interface Sounds",
+      "source_url": "https://kenney.nl/assets/interface-sounds",
+      "kind": "audio",
+      "official_metadata": {
+        "category": "Audio",
+        "tags": [
+          "interface",
+          "click",
+          "button"
+        ],
+        "listed_file_count": 100,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "インターフェース・クリック・ボタンの効果音パック。"
+      },
+      "keywords_ja": [
+        "UI音",
+        "ボタン音",
+        "クリック音",
+        "決定音",
+        "キャンセル音",
+        "ホバー音",
+        "購入音",
+        "メニュー音",
+        "強化選択音"
+      ],
+      "keywords_en": [
+        "interface",
+        "click",
+        "button",
+        "ui sound",
+        "confirm",
+        "cancel",
+        "hover",
+        "purchase",
+        "menu sound",
+        "select"
+      ],
+      "recommended_uses_ja": [
+        "Shop購入や強化選択のUI音",
+        "メニュー操作の反応音"
+      ],
+      "recommendation": {
+        "priority": 1,
+        "style_fit": "audition_required",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "意味づけはゲーム側で行う。素材名だけで購入成功音などと決めつけない。"
+      },
+      "check_before_use_ja": [
+        "各操作に合う短い音を試聴",
+        "連打時の重なりと音量差を確認"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": false
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.ui-audio",
+      "name": "UI Audio",
+      "source_url": "https://kenney.nl/assets/ui-audio",
+      "kind": "audio",
+      "official_metadata": {
+        "category": "Audio",
+        "tags": [
+          "button",
+          "switch",
+          "click"
+        ],
+        "listed_file_count": 50,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "ボタン・スイッチ・クリックの効果音パック。"
+      },
+      "keywords_ja": [
+        "UI音",
+        "ボタン音",
+        "切替音",
+        "スイッチ音",
+        "クリック音",
+        "決定音",
+        "キャンセル音",
+        "軽い通知音"
+      ],
+      "keywords_en": [
+        "ui audio",
+        "button",
+        "switch",
+        "click",
+        "confirm",
+        "cancel",
+        "notification"
+      ],
+      "recommended_uses_ja": [
+        "UIの切り替え・決定の音候補",
+        "Interface Soundsと比較する補助候補"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "audition_required",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "Level Up専用ジングルの収録は確認していない。UIの短い反応音として先に探す。"
+      },
+      "check_before_use_ja": [
+        "必要な成功・失敗のニュアンスを試聴",
+        "既存UI音と音量・質感を揃える"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": false
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.music-jingles",
+      "name": "Music Jingles",
+      "source_url": "https://kenney.nl/assets/music-jingles",
+      "kind": "audio",
+      "official_metadata": {
+        "category": "Audio",
+        "tags": [
+          "music",
+          "jingle"
+        ],
+        "listed_file_count": 85,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "音楽ジングルのパック。"
+      },
+      "keywords_ja": [
+        "ジングル",
+        "ファンファーレ",
+        "レベルアップ音",
+        "クリア音",
+        "勝利音",
+        "ボス撃破音",
+        "レア獲得音",
+        "報酬音",
+        "音楽"
+      ],
+      "keywords_en": [
+        "music",
+        "jingle",
+        "fanfare",
+        "level up",
+        "clear",
+        "victory",
+        "boss defeat",
+        "rare reward",
+        "reward sound"
+      ],
+      "recommended_uses_ja": [
+        "Level Up・ボス撃破・クリアの短い音楽候補",
+        "特別な報酬の祝う演出"
+      ],
+      "recommendation": {
+        "priority": 1,
+        "style_fit": "audition_required",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "各イベントへの割当は用途提案。常時BGMや特定のLevel Up音が完成品としてあるとは扱わない。"
+      },
+      "check_before_use_ja": [
+        "実際の長さ・曲調・ループ可否を試聴",
+        "連続レベルアップで長い音楽が重ならないよう調整"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": false
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    },
+    {
+      "id": "kenney.casino-audio",
+      "name": "Casino Audio",
+      "source_url": "https://kenney.nl/assets/casino-audio",
+      "kind": "audio",
+      "official_metadata": {
+        "category": "Audio",
+        "tags": [
+          "foley",
+          "casino",
+          "card",
+          "dice",
+          "chip"
+        ],
+        "listed_file_count": 50,
+        "license_label": "Creative Commons CC0",
+        "summary_ja": "カジノ・カード・ダイス・チップをテーマにした効果音パック。"
+      },
+      "keywords_ja": [
+        "カジノ",
+        "ギャンブル",
+        "カード音",
+        "ダイス音",
+        "サイコロ音",
+        "チップ音",
+        "コイン音",
+        "お金の音",
+        "抽選音",
+        "報酬音",
+        "ジャックポット"
+      ],
+      "keywords_en": [
+        "casino",
+        "foley",
+        "card",
+        "dice",
+        "chip",
+        "coin sound",
+        "money sound",
+        "roll",
+        "gamble",
+        "jackpot",
+        "reward sound"
+      ],
+      "recommended_uses_ja": [
+        "ギャンブル系効果のカード・サイコロ演出",
+        "Gold演出へ使える打音の候補探し"
+      ],
+      "recommendation": {
+        "priority": 2,
+        "style_fit": "audition_required",
+        "basis": "project_specific_suggestion_not_in_game_verification",
+        "note_ja": "公式タグはcard/dice/chip。金属硬貨のチャリン音やスロット音の収録は断定しない。"
+      },
+      "check_before_use_ja": [
+        "Coin用途に本当に合う音があるか試聴",
+        "音が合わなければ無理に硬貨用へ流用しない"
+      ],
+      "verification": {
+        "checked_on": "2026-09-07",
+        "level": "official_page_metadata",
+        "page_read": true,
+        "archive_file_inventory_verified": false,
+        "visual_fit_in_user_project_verified": false,
+        "audio_audition_verified": false
+      },
+      "local": {
+        "status": "unknown",
+        "path": null,
+        "unity_paths": [],
+        "verified_files": []
+      }
+    }
+  ],
+  "excluded_references": [
+    {
+      "name": "Retro Medieval Kit",
+      "url": "https://kenney.nl/assets/retro-medieval-kit",
+      "checked_on": "2026-09-07",
+      "status": "unavailable_on_check",
+      "detail_ja": "今回の取得では404。古い公式検索索引には掲載が残る。現行の同系統候補としてRetro Fantasy Kitを別レコードで掲載するが、アーカイブ同一性・正式改称は未検証。",
+      "related_pack_ids": [
+        "kenney.retro-fantasy-kit"
+      ]
+    }
+  ],
+  "verification_notes_ja": [
+    "素材本体のダウンロード・全ファイル棚卸し・ゲームへの導入はしていない。確認範囲は公式掲載ページの情報。",
+    "検索結果は「欲しい素材を探すパック候補」。確定ファイルとして使う前に配布物と見た目・音を確認する。",
+    "前の案内でGame Iconsをステータスアイコン一式のように扱った点は修正。確認できる公式タグは操作・インターフェース系。",
+    "前の案内の机以外の細かな小物・音・VFX用途も、公式本文にないものは検索候補・利用提案へ分類。"
+  ],
+  "reference_links": [
+    {
+      "title": "Kenney公式カタログ",
+      "url": "https://kenney.nl/assets"
+    },
+    {
+      "title": "Kenney公式Support / 素材ライセンス説明",
+      "url": "https://kenney.nl/support"
+    },
+    {
+      "title": "3D素材の公式Knowledge Base",
+      "url": "https://kenney.nl/knowledge-base/game-assets-3d"
+    },
+    {
+      "title": "Skyboxes公式導入ガイド",
+      "url": "https://kenney.nl/knowledge-base/game-assets-2d/how-to-use-skyboxes"
+    }
+  ]
+}

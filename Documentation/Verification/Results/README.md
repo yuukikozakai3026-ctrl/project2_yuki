@@ -1,0 +1,1 @@
+最新のMac実行から得た検査結果です。HandMotion_Finalは通常プレイ、HandMotion_Observationは特殊球を打たずに終点まで観察した実行です。元の録画・全フレーム・イベントCSVは元環境の同名フォルダに保存されています。

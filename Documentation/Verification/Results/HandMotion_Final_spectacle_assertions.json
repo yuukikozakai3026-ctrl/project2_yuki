@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "kinds": [
+    "ball",
+    "bomb",
+    "boomerang",
+    "bullets",
+    "cake",
+    "chest",
+    "magic",
+    "poison"
+  ],
+  "contact_accents": 27,
+  "sky_bursts": 69,
+  "bat_geometry_and_outbound_sources_unchanged": true,
+  "timing_changes": "shorter cooldown; separate presentation clock during slow motion"
+}

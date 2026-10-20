@@ -1,0 +1,308 @@
+{
+  "date": "2026-09-28",
+  "scope": "Text/coordinate/asset static checks only. No game build, audio audition or VR play test.",
+  "total": 60,
+  "passed": 60,
+  "checks": [
+    {
+      "check": "unique layout IDs",
+      "passed": true,
+      "detail": "94 objects"
+    },
+    {
+      "check": "floor grid",
+      "passed": true,
+      "detail": "7 x 8 floor tiles"
+    },
+    {
+      "check": "source packs",
+      "passed": true,
+      "detail": "7 selected Kenney packs, 37 chosen files including dependencies"
+    },
+    {
+      "check": "asset: food-kit/cake.glb",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: food-kit/plate.glb",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: food-kit/strawberry.glb",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: food-kit/colormap.png",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: pirate-kit/chest.glb",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: pirate-kit/cannon-ball.glb",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: pirate-kit/colormap.png",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: factory-kit/floor.glb",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: factory-kit/machine.glb",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: factory-kit/machine-connection-hole.glb",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: factory-kit/robot-arm-a.glb",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: factory-kit/pipe-large.glb",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: factory-kit/colormap.png",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: particle-pack/circle_01.png",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: particle-pack/spark_01.png",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: particle-pack/star_01.png",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: particle-pack/smoke_01.png",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: particle-pack/trace_01.png",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: particle-pack/light_01.png",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: impact-sounds/impactWood_medium_000.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: impact-sounds/impactMetal_light_000.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: impact-sounds/impactBell_heavy_000.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: impact-sounds/impactSoft_heavy_000.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: impact-sounds/impactPlate_light_000.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: impact-sounds/impactMetal_medium_000.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: impact-sounds/impactWood_heavy_000.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: impact-sounds/impactPlank_medium_000.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: impact-sounds/impactPunch_heavy_000.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: impact-sounds/impactMetal_heavy_000.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: interface-sounds/click_001.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: interface-sounds/minimize_001.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: interface-sounds/scratch_001.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: interface-sounds/confirmation_001.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: interface-sounds/close_001.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: interface-sounds/select_001.ogg",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: ui-pack/button_rectangle_flat.png",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "asset: ui-pack/icon_checkmark.png",
+      "passed": true,
+      "detail": "actual file matched 2026-09-28 inspection hash"
+    },
+    {
+      "check": "late bomb/receiver static clearance",
+      "passed": true,
+      "detail": "0.165 m depth clearance"
+    },
+    {
+      "check": "bomb delivery/receiver depth clearance",
+      "passed": true,
+      "detail": "0.105 m"
+    },
+    {
+      "check": "hole inside tabletop",
+      "passed": true,
+      "detail": "hole circle inside worktop edges"
+    },
+    {
+      "check": "raised cake bat over fork",
+      "passed": true,
+      "detail": "raised travel bat lowest Y 1.067, fork top 1.020"
+    },
+    {
+      "check": "raised plate cannot hand off early",
+      "passed": true,
+      "detail": "plate travel Y 1.17 above success band"
+    },
+    {
+      "check": "lowered plate can hand off",
+      "passed": true,
+      "detail": "handoff at plate bottom Y 1.13"
+    },
+    {
+      "check": "cake bat fits slot at destination",
+      "passed": true,
+      "detail": "swept bat X within fork gap at plate centre X 0.58"
+    },
+    {
+      "check": "cake delivery clears still bat before lowering",
+      "passed": true,
+      "detail": "dish front beyond bat tip after 0.50 m outward move; conservative tip radius 0.026"
+    },
+    {
+      "check": "bomb bat tangent distance",
+      "passed": true,
+      "detail": "h=0.118748 m, 3D distance=0.149 m"
+    },
+    {
+      "check": "bomb bat above dock",
+      "passed": true,
+      "detail": "visual bat bottom Y 1.041"
+    },
+    {
+      "check": "four bullet group has barrel overlap",
+      "passed": true,
+      "detail": "barrel X -0.326..0.281, group centres ±0.225"
+    },
+    {
+      "check": "partial bullet misses left but catches middle",
+      "passed": true,
+      "detail": "left edge after shift -0.076"
+    },
+    {
+      "check": "right corridor",
+      "passed": true,
+      "detail": "clearance to launcher AABBs at Z=3.0: 0.285 m"
+    },
+    {
+      "check": "left corridor",
+      "passed": true,
+      "detail": "clearance to launcher AABBs at Z=3.0: 0.325 m"
+    },
+    {
+      "check": "A bullet hits plate",
+      "passed": true,
+      "detail": "front face and bullet front at Z 5.47"
+    },
+    {
+      "check": "B bullet hits plate",
+      "passed": true,
+      "detail": "front face and bullet front at Z 5.47"
+    },
+    {
+      "check": "ball hits far net",
+      "passed": true,
+      "detail": "net front and ball front at Z 5.55"
+    },
+    {
+      "check": "texture dependency: food-kit",
+      "passed": true,
+      "detail": "external GLB texture explicitly selected"
+    },
+    {
+      "check": "texture dependency: pirate-kit",
+      "passed": true,
+      "detail": "external GLB texture explicitly selected"
+    },
+    {
+      "check": "texture dependency: factory-kit",
+      "passed": true,
+      "detail": "external GLB texture explicitly selected"
+    }
+  ]
+}

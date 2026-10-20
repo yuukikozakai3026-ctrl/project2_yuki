@@ -1,0 +1,30 @@
+[
+  {
+    "path": "Assets/Fonts/NotoSansJP-Bold.ttf",
+    "sha256": "d5d9a612f37a49b358d0ad9406623d3aecbf80b831b86b734a3e7a2afb7622ca",
+    "source": "https://github.com/google/fonts/tree/main/ofl/notosansjp",
+    "retrieved": "2026-09-28",
+    "note": "500/700 static instances derived using fontTools"
+  },
+  {
+    "path": "Assets/Fonts/NotoSansJP-Medium.ttf",
+    "sha256": "aba6f5fc74ee03fe7745ed5e99e744c9799e8feaf7dec01eef9491af3279dfb1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/notosansjp",
+    "retrieved": "2026-09-28",
+    "note": "500/700 static instances derived using fontTools"
+  },
+  {
+    "path": "Assets/Fonts/NotoSansJP[wght].ttf",
+    "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+    "source": "https://github.com/google/fonts/tree/main/ofl/notosansjp",
+    "retrieved": "2026-09-28",
+    "note": "official source"
+  },
+  {
+    "path": "Assets/Fonts/OFL.txt",
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+    "source": "https://github.com/google/fonts/tree/main/ofl/notosansjp",
+    "retrieved": "2026-09-28",
+    "note": "official source"
+  }
+]

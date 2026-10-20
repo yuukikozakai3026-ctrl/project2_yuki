@@ -1,0 +1,114 @@
+[
+  {
+    "source": "Assets/Kenney/impact-sounds/Audio/impactWood_heavy_000.ogg",
+    "path": "Assets/VRBat/Audio/impactWood_heavy_000.wav",
+    "original_peak_dbfs": -0.9,
+    "normalization_db": -0.09999999999999998,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/impact-sounds/Audio/impactMetal_heavy_000.ogg",
+    "path": "Assets/VRBat/Audio/impactMetal_heavy_000.wav",
+    "original_peak_dbfs": -0.9,
+    "normalization_db": -0.09999999999999998,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/impact-sounds/Audio/impactBell_heavy_000.ogg",
+    "path": "Assets/VRBat/Audio/impactBell_heavy_000.wav",
+    "original_peak_dbfs": -1.1,
+    "normalization_db": 0.10000000000000009,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/impact-sounds/Audio/impactPunch_heavy_000.ogg",
+    "path": "Assets/VRBat/Audio/impactPunch_heavy_000.wav",
+    "original_peak_dbfs": -1.0,
+    "normalization_db": 0.0,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/impact-sounds/Audio/impactWood_medium_000.ogg",
+    "path": "Assets/VRBat/Audio/impactWood_medium_000.wav",
+    "original_peak_dbfs": -1.0,
+    "normalization_db": 0.0,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/impact-sounds/Audio/impactPlank_medium_000.ogg",
+    "path": "Assets/VRBat/Audio/impactPlank_medium_000.wav",
+    "original_peak_dbfs": -1.2,
+    "normalization_db": 0.19999999999999996,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/impact-sounds/Audio/impactMetal_light_000.ogg",
+    "path": "Assets/VRBat/Audio/impactMetal_light_000.wav",
+    "original_peak_dbfs": -1.0,
+    "normalization_db": 0.0,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/impact-sounds/Audio/impactMetal_medium_000.ogg",
+    "path": "Assets/VRBat/Audio/impactMetal_medium_000.wav",
+    "original_peak_dbfs": -1.2,
+    "normalization_db": 0.19999999999999996,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/impact-sounds/Audio/impactPlate_light_000.ogg",
+    "path": "Assets/VRBat/Audio/impactPlate_light_000.wav",
+    "original_peak_dbfs": -1.0,
+    "normalization_db": 0.0,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/impact-sounds/Audio/impactSoft_heavy_000.ogg",
+    "path": "Assets/VRBat/Audio/impactSoft_heavy_000.wav",
+    "original_peak_dbfs": -0.9,
+    "normalization_db": -0.09999999999999998,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/interface-sounds/Audio/select_001.ogg",
+    "path": "Assets/VRBat/Audio/select_001.wav",
+    "original_peak_dbfs": -1.1,
+    "normalization_db": 0.10000000000000009,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/interface-sounds/Audio/confirmation_001.ogg",
+    "path": "Assets/VRBat/Audio/confirmation_001.wav",
+    "original_peak_dbfs": -0.9,
+    "normalization_db": -0.09999999999999998,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/interface-sounds/Audio/minimize_001.ogg",
+    "path": "Assets/VRBat/Audio/minimize_001.wav",
+    "original_peak_dbfs": -0.9,
+    "normalization_db": -0.09999999999999998,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/interface-sounds/Audio/close_001.ogg",
+    "path": "Assets/VRBat/Audio/close_001.wav",
+    "original_peak_dbfs": -0.9,
+    "normalization_db": -0.09999999999999998,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/interface-sounds/Audio/scratch_001.ogg",
+    "path": "Assets/VRBat/Audio/scratch_001.wav",
+    "original_peak_dbfs": -0.9,
+    "normalization_db": -0.09999999999999998,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  },
+  {
+    "source": "Assets/Kenney/interface-sounds/Audio/click_001.ogg",
+    "path": "Assets/VRBat/Audio/click_001.wav",
+    "original_peak_dbfs": -1.4,
+    "normalization_db": 0.3999999999999999,
+    "audition": "Runtime playback completed; subjective listening unverified"
+  }
+]

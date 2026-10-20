@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "trick_start_metres": 4.2,
+  "slow_start_metres": 1.49,
+  "bomb_rule": "one gravity arc, no recoil turns",
+  "impact_pulses": 27,
+  "screen_space": "stereo clip, central clear area, no camera transform changes"
+}

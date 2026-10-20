@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "band_contacts": 27,
+  "band_axis_min": 0.43,
+  "band_axis_max": 0.66056,
+  "tip_probe_rejected_without_score_or_return": false
+}
