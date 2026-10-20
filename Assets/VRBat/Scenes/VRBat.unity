@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 2
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 1
+    m_PVRFilteringGaussRadiusAO: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &782154135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 782154138}
+  - component: {fileID: 782154137}
+  - component: {fileID: 782154136}
+  m_Layer: 0
+  m_Name: VR Bat Carnival & Workshop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &782154136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782154135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84999728b098542778f12144936c6096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRBat.BatGame
+  view: {fileID: 782154137}
+  workshop: 0
+  autoDemo: 1
+  left: 0
+  height: 1.65
+  phase: menu
+  now: 0
+  phaseAt: 0
+  runAt: 0
+  nextAt: 0
+  score: 0
+  index: 0
+  introIndex: 0
+  cycle: 0
+  sectionStep: 0
+  lastSection: -1
+  ballSourceStep: 0
+  grip: {x: 0.28, y: 1.05, z: 0.2}
+  axis: {x: -0.25, y: 0.6, z: 0.759934}
+  dy: 0
+  paused: 0
+  evidence: 
+  presented: 0000000000000000000000000000000000000000000000000000000000000000
+  success: 0000000000000000000000000000000000000000000000000000000000000000
+  bulletHits: 0
+  bulletTotal: 0
+  bandHits: 0
+  bandHintUntil: 0
+  pitchSerial: 0
+  suite: 0
+  magicStep: 0
+  captureSequence: 0
+  targets: {fileID: 0}
+  fx: {fileID: 0}
+  introFailures: 0
+  introAssisted: 0
+  oldGrip: {x: 0, y: 0, z: 0}
+  oldAxis: {x: 0, y: 0, z: 0}
+  impactView: {fileID: 0}
+  effectTime: 0
+  effectScale: 1
+  effectDelta: 0
+  slowViewTint: {fileID: 0}
+--- !u!114 &782154137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782154135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7adb0b5b0988840f283d64feeaa08837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRBat.StageView
+  litTemplate: {fileID: 2100000, guid: 51f98304a2d8f475091d7fb30e4e40c7, type: 2}
+  particleTemplate: {fileID: 2100000, guid: 746112f8b84494818812ee5e9f8bfda0, type: 2}
+  uiMaterial: {fileID: 2100000, guid: 4e0d76575de72455e82435a146e94586, type: 2}
+  floor: {fileID: 0}
+  machine: {fileID: 0}
+  supply: {fileID: -7123777853346560865, guid: 27b4f83513e4e4f65be2bd3a7e1dbe03, type: 3}
+  robot: {fileID: -5496592805626163020, guid: 5c43d3d3335f04991b0dc65e7005e721, type: 3}
+  pipe: {fileID: 0}
+  ball: {fileID: 6563490812413636993, guid: d078c7ed94507485bb49109599825bd4, type: 3}
+  cake: {fileID: 5779312413849669107, guid: f59d10d39780c4da88374c7de6bdb3c5, type: 3}
+  plate: {fileID: 0}
+  chest: {fileID: -6399387781660903837, guid: 1d94c386d8f374f20889d2ef741b8c5d, type: 3}
+  strawberry: {fileID: -2797171044326470434, guid: b687900bc2713448cba85aa2dc347cb6, type: 3}
+  font: {fileID: 12800000, guid: 4d3f2684d3d7b41559811df98c2d0a4b, type: 3}
+  boldFont: {fileID: 12800000, guid: 8af26416e19314ea9a094bef00395167, type: 3}
+  uiFrame: {fileID: 2800000, guid: 0207d3f71a9f740bcbed6ea74c8214b5, type: 3}
+  checkmark: {fileID: 2800000, guid: d1fb821cee1924d02ab73c5375ab176e, type: 3}
+  particles:
+  - {fileID: 2800000, guid: f7853338e8bf6492485a61c2c5a2617f, type: 3}
+  - {fileID: 2800000, guid: c73fe629ef4cc4cbe874877b3d820b4f, type: 3}
+  - {fileID: 2800000, guid: 5044dd45724f04cc2ae22e971e0ed1c5, type: 3}
+  - {fileID: 2800000, guid: 4a10c16e14fac476daf0eebec2970ba7, type: 3}
+  - {fileID: 2800000, guid: c818fb3a6359d4097ba66383842d74cd, type: 3}
+  - {fileID: 2800000, guid: 4b0a6475d3d624dcd8fc0ab97d4176b9, type: 3}
+  sounds:
+  - {fileID: 8300000, guid: 09258be23886a49e3828ec96b0cb14c5, type: 3}
+  - {fileID: 8300000, guid: f712c588e35af47efbbcc5bab14c1e07, type: 3}
+  - {fileID: 8300000, guid: 507c5b9bb5b36423d9d4911a1f446f76, type: 3}
+  - {fileID: 8300000, guid: a2552dacc07bf452c8d85c9d8342d761, type: 3}
+  - {fileID: 8300000, guid: b919c46960e134536834e79c04e4cdf8, type: 3}
+  - {fileID: 8300000, guid: 83817ec8deced4f9180f4e09cf22397e, type: 3}
+  - {fileID: 8300000, guid: 87507c4057bb445bea937a8d5a7e6b7c, type: 3}
+  - {fileID: 8300000, guid: 491bfc074a1994693a931957daa556ca, type: 3}
+  - {fileID: 8300000, guid: 646baacda3c424285aa0af76a9026d10, type: 3}
+  - {fileID: 8300000, guid: 6fa8876dcd22e403f8272accb14d23d1, type: 3}
+  - {fileID: 8300000, guid: c4247c02338944e95a421a82aa1a8adc, type: 3}
+  - {fileID: 8300000, guid: 10676fc7cfeca4246a7ef3d01912266f, type: 3}
+  - {fileID: 8300000, guid: 49b635e2ecb014e8696b08ecd569f877, type: 3}
+  - {fileID: 8300000, guid: a4a57f2b1f7514d29b6f80f3bd3e752a, type: 3}
+  - {fileID: 8300000, guid: 4cecb39f54fbd4bf9be38a585c4eb351, type: 3}
+  - {fileID: 8300000, guid: f51ee9efafac342b896bb4d66e9752cd, type: 3}
+  - {fileID: 8300000, guid: c4a59deeb97ae436593c3e8728652739, type: 3}
+  - {fileID: 8300000, guid: e8c24df7550f74052acf0573cc8b0a1c, type: 3}
+  - {fileID: 8300000, guid: 86093374421614866bb9c7272a811e81, type: 3}
+  - {fileID: 8300000, guid: 02f2a205f12ca43729588b49a08ed6b3, type: 3}
+  - {fileID: 8300000, guid: dce9d67644806485a8b30c3bb7608aab, type: 3}
+  - {fileID: 8300000, guid: 7cdfb12c1cc694257935ed9d4e8caa96, type: 3}
+  - {fileID: 8300000, guid: df8db5a72ade54e75beff7d18f3b5fbd, type: 3}
+  spectacle: {fileID: 0}
+  near: {fileID: 0}
+  bat: {fileID: 0}
+  eye: {fileID: 0}
+  music: {fileID: 0}
+  dockHinge: {fileID: 0}
+  bStage: {fileID: 0}
+  menu: {fileID: 0}
+  results: {fileID: 0}
+  hud: {fileID: 0}
+  score: {fileID: 0}
+  time: {fileID: 0}
+  band: {fileID: 0}
+  white: {fileID: 0}
+  navy: {fileID: 0}
+  gold: {fileID: 0}
+  teal: {fileID: 0}
+  metal: {fileID: 0}
+  table: {fileID: 0}
+  wall: {fileID: 0}
+  fieldFence: {fileID: 0}
+  farNetMaterial: {fileID: 0}
+  mirrored: 0
+--- !u!4 &782154138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782154135}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 782154138}
